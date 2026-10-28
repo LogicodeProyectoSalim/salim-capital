@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="96" fill="#1F3A2E"/>
+  <path d="M58 84 Q100 22 142 84" fill="none" stroke="#C9A55E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="58" cy="84" r="7" fill="#1F3A2E" stroke="#C9A55E" stroke-width="5"/>
+  <circle cx="142" cy="84" r="7" fill="#1F3A2E" stroke="#C9A55E" stroke-width="5"/>
+  <text x="100" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="68" font-weight="600" fill="#FFFFFF" letter-spacing="-2">SC</text>
+</svg>

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salim Capital</title>
+<meta name="description" content="Said Salim, asesor financiero especializado en activos digitales y en la conexión entre los mercados del Golfo y Europa.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#FFFFFF; --surface:#F6F4EE; --ink:#111111; --muted:#3F3F3F;
+  --green:#1F3A2E; --green-ink:#FFFFFF; --moss:#4B6B52; --brass:#9A7A3C; --line:#1F3A2E;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:only light;
+}
+html[data-mode="dark"]{
+  --bg:#141C17; --surface:#1B261F; --ink:#E9E2D1; --muted:#A9B2A6;
+  --green:#0E1612; --green-ink:#E9E2D1; --moss:#7FA487; --brass:#C9A55E; --line:#2E3C33;
+  color-scheme:only dark;
+}
+.top{background:#1F3A2E;color:#FFFFFF;border-bottom:1px solid #5E8A6A}
+.top .brand,.top .mode{color:#FFFFFF}
+.top nav a{color:#E3E9E1}
+.top nav a:hover{color:#FFFFFF;text-decoration:underline;text-underline-offset:.3em}
+.top .mk-ring{stroke:#FFFFFF}
+.top .mk-txt{fill:#FFFFFF}
+.top .mk-arch{stroke:#C9A55E}
+.top .mk-node{fill:#1F3A2E;stroke:#C9A55E}
+.top .lang,.top .mode{border-color:rgba(255,255,255,.45)}
+.top .lang button{color:#E3E9E1}
+.top .lang button[aria-pressed="true"]{background:#FFFFFF;color:#1F3A2E}
+.top .mode:hover{background:#FFFFFF;color:#1F3A2E}
+.top :focus-visible{outline-color:#C9A55E}
+.mode{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:.4rem;padding:.3rem .8rem;min-height:2rem;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--ink)}
+.mode:hover{background:var(--green);color:var(--green-ink)}
+.mode:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.mode svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.mode .sun{display:none}
+html[data-mode="dark"] .mode .sun{display:block}
+html[data-mode="dark"] .mode .moon{display:none}
+
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-height:100vh;border:6px solid var(--green);background:var(--bg);color:var(--ink);font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.0625rem;line-height:1.6}
+html[lang="ar"] body{font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;line-height:1.9}
+h1,h2,h3{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:400;line-height:1.15;margin:0}
+html[lang="ar"] h1,html[lang="ar"] h2,html[lang="ar"] h3{font-family:"IBM Plex Sans Arabic",Georgia,serif;font-weight:600;line-height:1.5}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.wrap{max-width:68rem;margin-inline:auto;padding-inline:1.5rem}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-block:1.25rem}
+.brand{font-family:Fraunces,Georgia,serif;font-size:1.35rem;text-decoration:none;color:var(--ink)}
+html[lang="ar"] .brand{font-family:"IBM Plex Sans Arabic",serif;font-weight:600}
+.brand{display:flex;align-items:center;gap:.75rem}
+.brand svg{width:44px;height:44px;flex:none}
+.mk-ring{fill:none;stroke:var(--green);stroke-width:7}
+.mk-arch{fill:none;stroke:var(--brass);stroke-width:7;stroke-linecap:round}
+.mk-node{fill:var(--bg);stroke:var(--brass);stroke-width:4}
+.mk-txt{fill:var(--ink);font-family:Fraunces,Georgia,serif;font-weight:600;font-size:68px;letter-spacing:-2px}
+@media (max-width:40rem){.brand .name{display:none}}
+nav{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+.about{padding-block:4.5rem;border-top:1px solid var(--line)}
+.about .cols{display:grid;grid-template-columns:.8fr 1.2fr;gap:3rem}
+.about h2{font-size:clamp(1.8rem,3.4vw,2.6rem);color:var(--ink)}
+.about .s{margin:1rem 0 0;color:var(--muted);font-family:Fraunces,Georgia,serif;font-size:1.2rem}
+html[lang="ar"] .about .s{font-family:"IBM Plex Sans Arabic",serif}
+.about .txt p{margin:0 0 1.2rem;max-width:38rem}
+.about .txt .last{font-weight:500}
+@media (max-width:52rem){.about .cols{grid-template-columns:1fr;gap:1.5rem}}
+nav a{text-decoration:none;font-size:.95rem;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{all:unset;cursor:pointer;padding:.3rem .8rem;font-size:.85rem;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--green);color:var(--green-ink)}
+.lang button:focus-visible{outline:2px solid var(--brass);outline-offset:-2px}
+
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center;padding-block:4rem 5rem}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.4rem);color:var(--ink);letter-spacing:-.01em}
+.hero .sub{margin:1.5rem 0 .75rem;max-width:34rem;font-weight:500}
+.hero .lead{margin:0 0 2rem;max-width:34rem;color:var(--muted)}
+.btns{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;padding:.8rem 1.4rem;border-radius:4px;background:transparent;color:var(--ink);text-decoration:none;font-weight:600;border:2px solid var(--green)}
+.btn:hover{background:var(--green);color:var(--green-ink)}
+.link{color:var(--ink);text-underline-offset:.3em}
+
+.bridge{width:100%}
+.bridge svg{display:block;width:100%;height:auto}
+.arch{fill:none;stroke:var(--green);stroke-width:3;stroke-linecap:round;stroke-dasharray:620;stroke-dashoffset:620;animation:draw 1.8s .2s ease forwards}
+.deck{stroke:var(--brass);stroke-width:3;stroke-linecap:round}
+.hang{stroke:var(--moss);stroke-width:1.5}
+.node{fill:var(--bg);stroke:var(--brass);stroke-width:3}
+@keyframes draw{to{stroke-dashoffset:0}}
+.ends{display:flex;justify-content:space-between;gap:1rem;font-size:.9rem;color:var(--muted);margin-top:.5rem}
+@media (prefers-reduced-motion: reduce){.arch{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+
+.give{padding-block:4rem;border-top:1px solid var(--line)}
+.give h2,.principles h2{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:2.5rem}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.three>div{padding-inline:1.5rem;border-inline-start:1px solid var(--line)}
+.three>div:first-child{padding-inline-start:0;border-inline-start:0}
+.three h3{font-size:1.25rem;margin-bottom:.6rem;color:var(--ink)}
+.three p{margin:0;color:var(--muted)}
+.mission{margin:3.5rem 0 0;max-width:40rem;font-family:Fraunces,Georgia,serif;font-size:1.35rem;line-height:1.5}
+html[lang="ar"] .mission{font-family:"IBM Plex Sans Arabic",serif;line-height:1.9}
+
+.principles{background:var(--bg);color:var(--ink);padding-block:4.5rem;border-block:6px solid var(--green)}
+.principles .three>div{border-inline-start-color:rgba(237,230,214,.22)}
+.principles .three h3{color:var(--ink);border-top:2px solid var(--green);padding-top:1rem;margin-top:-1px}
+.principles .three>div{border-inline-start:0;padding-inline:0 1.5rem}
+.principles .three p{color:var(--muted)}
+.principles .three{gap:2.5rem}
+
+.contact{padding-block:5rem;text-align:start}
+.contact h2{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:1rem;max-width:30rem}
+.contact p{max-width:34rem;color:var(--muted);margin:0 0 2rem}
+footer{border-top:1px solid var(--line);padding-block:1.5rem;color:var(--muted);font-size:.9rem}
+
+@media (max-width:52rem){
+  .hero{grid-template-columns:1fr;gap:2.5rem;padding-block:2.5rem 3.5rem}
+  .three{grid-template-columns:1fr;gap:2rem}
+  .three>div{padding-inline:0;border-inline-start:0}
+  .give .three>div+div{border-top:1px solid var(--line);padding-top:1.5rem}
+  .principles .three{gap:2rem}
+}
+/* Modo oscuro: sin bordes verdes ni cabecera verde */
+html[data-mode="dark"] body{border:0}
+html[data-mode="dark"] .top{background:transparent;border-bottom:0}
+html[data-mode="dark"] .top .brand,html[data-mode="dark"] .top .mode{color:var(--ink)}
+html[data-mode="dark"] .top nav a{color:var(--muted)}
+html[data-mode="dark"] .top nav a:hover{color:var(--ink)}
+html[data-mode="dark"] .top .mk-ring{stroke:var(--ink)}
+html[data-mode="dark"] .top .mk-txt{fill:var(--ink)}
+html[data-mode="dark"] .top .mk-node{fill:var(--bg)}
+html[data-mode="dark"] .top .lang,html[data-mode="dark"] .top .mode{border-color:var(--line)}
+html[data-mode="dark"] .top .lang button{color:var(--muted)}
+html[data-mode="dark"] .top .lang button[aria-pressed="true"],html[data-mode="dark"] .top .mode:hover{background:var(--ink);color:var(--bg)}
+html[data-mode="dark"] .principles{background:var(--green);border-block:0}
+html[data-mode="dark"] .principles .three h3{border-top-color:var(--brass)}
+html[data-mode="dark"] .arch{stroke:var(--brass)}
+html[data-mode="dark"] .btn{border-color:var(--brass)}
+html[data-mode="dark"] .btn:hover{background:var(--brass);color:var(--bg)}
+.logo-intro{background:#1F3A2E;color:#FFFFFF;border-top:1px solid rgba(255,255,255,.12)}
+.li-in{display:flex;flex-direction:column;align-items:center;text-align:center;padding-block:3.5rem 3.75rem}
+.lg{width:min(170px,45vw);height:auto}
+.lg-arch{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round}
+.lg-deck{stroke:#C9A55E;stroke-width:4;stroke-linecap:round}
+.lg-node{fill:#1F3A2E;stroke:#C9A55E;stroke-width:3.5}
+.lg-name{margin:1.5rem 0 0;font-family:Fraunces,Georgia,serif;font-weight:400;font-size:clamp(2.4rem,6vw,3.8rem);line-height:1.05;letter-spacing:.01em;color:#FFFFFF}
+html[lang="ar"] .lg-name{font-family:"IBM Plex Sans Arabic",serif;font-weight:600;line-height:1.4}
+.lg-rule{display:block;width:56px;height:1px;background:#C9A55E;margin:1.4rem 0 1.2rem}
+.lg-tag{margin:0;font-family:Fraunces,Georgia,serif;font-style:italic;font-size:clamp(1.15rem,2.4vw,1.45rem);color:#E9E2D1;letter-spacing:.01em}
+html[lang="ar"] .lg-tag{font-family:"IBM Plex Sans Arabic",serif;font-style:normal}
+html[data-mode="dark"] .logo-intro{border-top:0}
+.exp{padding-block:4.5rem;border-top:2px solid var(--line)}
+.exp h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.exp-intro{margin:1rem 0 3rem;max-width:42rem;color:var(--muted)}
+.exp-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2.75rem 3rem}
+.exp-grid article{border-top:2px solid var(--green);padding-top:1.25rem}
+.exp-grid h3{font-size:1.3rem;margin-bottom:.7rem}
+.exp-grid p{margin:0;color:var(--muted);max-width:34rem}
+html[data-mode="dark"] .exp{border-top-width:1px}
+html[data-mode="dark"] .exp-grid article{border-top-color:var(--brass)}
+@media (max-width:52rem){.exp-grid{grid-template-columns:1fr;gap:2rem}}
+.svc{padding-block:4.5rem;border-top:2px solid var(--line)}
+.svc h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.svc-intro{margin:1rem 0 3rem;max-width:42rem;color:var(--muted)}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3rem}
+.svc-col h3{font-size:1.35rem;padding-bottom:1rem;border-bottom:2px solid var(--green);margin-bottom:1.5rem}
+.svc-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1.5rem}
+.svc-col h4{margin:0 0 .35rem;font-size:1.02rem;font-weight:600}
+.svc-col p{margin:0;color:var(--muted);font-size:.98rem}
+html[data-mode="dark"] .svc{border-top-width:1px}
+html[data-mode="dark"] .svc-col h3{border-bottom-color:var(--brass)}
+@media (max-width:52rem){.svc-grid{grid-template-columns:1fr;gap:2.5rem}}
+[hidden]{display:none !important}
+.top nav a[aria-current="page"]{color:#FFFFFF;text-decoration:underline;text-decoration-color:#C9A55E;text-decoration-thickness:2px;text-underline-offset:.45em}
+html[data-mode="dark"] .top nav a[aria-current="page"]{color:var(--ink)}
+.view-on{border-top:0 !important;min-height:60vh}
+.menu-btn{display:none}
+@media (max-width:56rem){
+  .menu-btn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:0 .9rem;border:1px solid rgba(255,255,255,.45);border-radius:999px;color:#FFFFFF;font-size:.95rem}
+  .menu-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+  .menu-btn:focus-visible{outline:2px solid #C9A55E;outline-offset:2px}
+  .menu-btn[aria-expanded="true"] .l2{opacity:0}
+  .menu-btn[aria-expanded="true"] .l1{transform:translateY(5px) rotate(45deg);transform-origin:12px 7px}
+  .menu-btn[aria-expanded="true"] .l3{transform:translateY(-5px) rotate(-45deg);transform-origin:12px 17px}
+  .menu-btn path{transition:transform .2s ease,opacity .2s ease}
+  #mainNav{display:none;width:100%;flex-direction:column;align-items:stretch;gap:0;padding-bottom:1rem}
+  #mainNav.open{display:flex}
+  #mainNav > a{padding:.85rem 0;font-size:1.05rem;border-bottom:1px solid rgba(255,255,255,.15)}
+  #mainNav .mode,#mainNav .lang{margin-top:1rem;align-self:flex-start}
+  #mainNav .lang button{padding:.6rem 1rem}
+  html[data-mode="dark"] .menu-btn{color:var(--ink);border-color:var(--line)}
+  html[data-mode="dark"] #mainNav > a{border-bottom-color:var(--line)}
+}
+@media (max-width:56rem) and (prefers-reduced-motion: reduce){.menu-btn path{transition:none}}
+.sec-intro{margin:1rem 0 3rem;max-width:42rem;color:var(--muted)}
+.models,.faq,.jobs{padding-block:4.5rem;border-top:2px solid var(--line)}
+.models h2,.faq h2,.jobs h2,.contact h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;align-items:stretch}
+.model{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:4px;padding:2rem 1.75rem}
+.model.feat{border-width:3px;padding:calc(2rem - 2px) calc(1.75rem - 2px)}
+.model h3{font-size:1.45rem}
+.m-sub{margin:.4rem 0 1rem;font-family:Fraunces,Georgia,serif;font-style:italic;color:var(--muted)}
+html[lang="ar"] .m-sub{font-family:"IBM Plex Sans Arabic",serif;font-style:normal}
+.m-desc{margin:0 0 1.25rem}
+.model ul{margin:0 0 1.5rem;padding:0;list-style:none;display:flex;flex-direction:column;gap:.6rem}
+.model li{position:relative;padding-inline-start:1.4rem;color:var(--muted);font-size:.98rem}
+.model li::before{content:"";position:absolute;inset-inline-start:0;top:.7em;width:.7rem;height:2px;background:var(--green)}
+.m-res{margin:auto 0 1.5rem;padding-top:1rem;border-top:1px solid var(--line);font-weight:600}
+.model .btn{align-self:flex-start}
+.faq-list{display:flex;flex-direction:column;gap:2.5rem;max-width:48rem}
+.faq-g h3{font-size:1.3rem;margin-bottom:.5rem}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem;padding:1.1rem 0;font-weight:600;min-height:44px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--green)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{margin:0 0 1.25rem;color:var(--muted);max-width:42rem}
+.jobs p{max-width:40rem;color:var(--muted)}
+.req{display:flex;flex-direction:column;gap:1.5rem;max-width:48rem}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.f{display:flex;flex-direction:column;gap:.4rem;font-weight:500}
+.f small{font-weight:400;color:var(--muted);font-size:.85rem}
+.req input[type=text],.req input[type=email],.req select,.req textarea{font:inherit;font-weight:400;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:.7rem .8rem;min-height:44px;width:100%}
+.req textarea{resize:vertical}
+.req input:focus-visible,.req select:focus-visible,.req textarea:focus-visible{outline:2px solid var(--brass);outline-offset:1px}
+.req.tried :invalid{border-color:#B3261E}
+.f-set{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:.5rem}
+.f-set legend{font-weight:500;margin-bottom:.5rem;padding:0}
+.chk{display:flex;align-items:flex-start;gap:.7rem;min-height:32px;cursor:pointer}
+.chk input{width:20px;height:20px;margin:.2rem 0 0;accent-color:var(--green);flex:none}
+html[data-mode="dark"] .chk input{accent-color:var(--brass)}
+.priv{font-size:.92rem;color:var(--muted)}
+.req .btn{align-self:flex-start;cursor:pointer;font:inherit;font-weight:600}
+.req-ok{max-width:42rem;border:2px solid var(--green);border-radius:4px;padding:2rem}
+.req-ok h3{font-size:1.5rem;margin-bottom:.75rem}
+.req-ok p{margin:0;color:var(--muted)}
+.foot-in{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem}
+.foot-in p{margin:0}
+.foot-nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem}
+.foot-nav a{color:var(--ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.foot-nav a:hover,.foot-nav a[aria-current="page"]{text-decoration:underline;text-decoration-color:var(--green);text-decoration-thickness:2px;text-underline-offset:.4em}
+footer{border-top:2px solid var(--line)}
+html[data-mode="dark"] .models,html[data-mode="dark"] .faq,html[data-mode="dark"] .jobs,html[data-mode="dark"] footer{border-top-width:1px}
+html[data-mode="dark"] .model.feat,html[data-mode="dark"] .req-ok{border-color:var(--brass)}
+html[data-mode="dark"] .model li::before{background:var(--brass)}
+html[data-mode="dark"] .faq summary::after{color:var(--brass)}
+@media (max-width:56rem){.model-grid{grid-template-columns:1fr}.f-row{grid-template-columns:1fr}}
+/* Árabe: tipografía y ritmo propios */
+html[lang="ar"] body{font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;font-size:1.1rem;line-height:1.85}
+html[lang="ar"] :is(h1,h2,h3,.brand .name,.lg-name,.mission,.about .s,.lg-tag,.m-sub){font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;font-style:normal;letter-spacing:0}
+html[lang="ar"] :is(h1,h2,h3,.lg-name){font-weight:600;line-height:1.5}
+html[lang="ar"] :is(.mission,.about .s,.lg-tag,.m-sub){font-weight:400}
+html[lang="ar"] .hero h1{font-size:clamp(1.9rem,4.2vw,3rem)}
+html[lang="ar"] .lg-name{font-size:clamp(2.3rem,5.6vw,3.5rem)}
+html[lang="ar"] .lg-tag,html[lang="ar"] .mission{font-size:clamp(1.2rem,2.5vw,1.5rem);line-height:1.75}
+html[lang="ar"] h4,html[lang="ar"] .faq summary{font-weight:600}
+html[lang="ar"] nav a,html[lang="ar"] .btn{letter-spacing:0}
+html[lang="ar"] .f small,html[lang="ar"] .priv{line-height:1.7}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio">
+      <svg viewBox="0 0 200 200" role="img" aria-label="Salim Capital">
+        <circle class="mk-ring" cx="100" cy="100" r="92"/>
+        <path class="mk-arch" d="M58 84 Q100 22 142 84"/>
+        <circle class="mk-node" cx="58" cy="84" r="6"/>
+        <circle class="mk-node" cx="142" cy="84" r="6"/>
+        <text class="mk-txt" x="100" y="152" text-anchor="middle">SC</text>
+      </svg>
+      <span class="name" data-i18n="brand">Salim Capital</span>
+    </a>
+    <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="l1" d="M4 7h16"/><path class="l2" d="M4 12h16"/><path class="l3" d="M4 17h16"/></svg>
+      <span data-i18n="menu">Menú</span>
+    </button>
+    <nav id="mainNav">
+      <a href="#inicio" data-i18n="navH">Inicio</a>
+      <a href="#sobre-mi" data-i18n="nav0">Sobre mí</a>
+      <a href="#servicios" data-i18n="navS">Servicios</a>
+      <a href="#modelos" data-i18n="navM">Modelos</a>
+      <a href="#faq" data-i18n="navF">Preguntas</a>
+      <a href="#contacto" data-i18n="nav3">Contacto</a>
+      <button type="button" class="mode" id="mode">
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <span id="modeTxt"></span>
+      </button>
+      <div class="lang" role="group" aria-label="Idioma / Language / اللغة">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang="ar" aria-pressed="false">عربي</button>
+      </div>
+    </nav>
+  </div>
+</header>
+<section class="logo-intro" aria-label="Salim Capital">
+  <div class="wrap li-in">
+    <svg class="lg" viewBox="0 0 120 72" aria-hidden="true">
+      <path class="lg-arch" d="M10 56 Q60 -14 110 56"/>
+      <line class="lg-deck" x1="10" y1="56" x2="110" y2="56"/>
+      <circle class="lg-node" cx="10" cy="56" r="7"/>
+      <circle class="lg-node" cx="110" cy="56" r="7"/>
+    </svg>
+    <p class="lg-name" data-i18n="brand">Salim Capital</p>
+    <span class="lg-rule" aria-hidden="true"></span>
+    <p class="lg-tag" data-i18n="aT">El puente entre dos mundos</p>
+  </div>
+</section>
+<div class="wrap">
+
+  <section class="hero" id="inicio">
+    <div>
+      <h1 data-i18n="h1">Estrategia financiera global: de Oriente Medio a la Unión Europea</h1>
+      <p class="sub" data-i18n="sub"></p>
+      <p class="lead" data-i18n="lead"></p>
+      <div class="btns">
+        <a class="btn" href="#contacto" data-i18n="cta">Solicitar una evaluación</a>
+        <a class="link" href="#aporte" data-i18n="cta2">Ver qué aporto</a>
+      </div>
+    </div>
+    <div class="bridge" aria-hidden="true">
+      <svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg">
+        <path class="arch" d="M30 200 Q240 -40 450 200"/>
+        <line class="hang" x1="105" y1="200" x2="105" y2="96"/>
+        <line class="hang" x1="172" y1="200" x2="172" y2="58"/>
+        <line class="hang" x1="240" y1="200" x2="240" y2="40"/>
+        <line class="hang" x1="308" y1="200" x2="308" y2="58"/>
+        <line class="hang" x1="375" y1="200" x2="375" y2="96"/>
+        <line class="deck" x1="30" y1="200" x2="450" y2="200"/>
+        <circle class="node" cx="30" cy="200" r="9"/>
+        <circle class="node" cx="450" cy="200" r="9"/>
+      </svg>
+      <div class="ends"><span data-i18n="end1">Oriente Medio y Norte de África</span><span data-i18n="end2">España</span></div>
+    </div>
+  </section>
+</div>
+
+<section class="give" id="aporte">
+  <div class="wrap">
+    <h2 data-i18n="giveT">Qué aporto a su patrimonio</h2>
+    <div class="three">
+      <div><h3 data-i18n="g1t"></h3><p data-i18n="g1p"></p></div>
+      <div><h3 data-i18n="g2t"></h3><p data-i18n="g2p"></p></div>
+      <div><h3 data-i18n="g3t"></h3><p data-i18n="g3p"></p></div>
+    </div>
+    <p class="mission" data-i18n="mission"></p>
+  </div>
+</section>
+
+<section class="about" id="sobre-mi">
+  <div class="wrap cols">
+    <div><h2 data-i18n="aT"></h2><p class="s" data-i18n="aS"></p></div>
+    <div class="txt">
+      <p data-i18n="a1"></p>
+      <p data-i18n="a2"></p>
+      <p data-i18n="a3"></p>
+      <p class="last" data-i18n="a4"></p>
+    </div>
+  </div>
+</section>
+
+<section class="exp" id="experiencia">
+  <div class="wrap">
+    <h2 data-i18n="eT"></h2>
+    <p class="exp-intro" data-i18n="eI"></p>
+    <div class="exp-grid">
+      <article><h3 data-i18n="e1t"></h3><p data-i18n="e1p"></p></article>
+      <article><h3 data-i18n="e2t"></h3><p data-i18n="e2p"></p></article>
+      <article><h3 data-i18n="e3t"></h3><p data-i18n="e3p"></p></article>
+      <article><h3 data-i18n="e4t"></h3><p data-i18n="e4p"></p></article>
+    </div>
+  </div>
+</section>
+
+<section class="svc" id="servicios">
+  <div class="wrap">
+    <h2 data-i18n="sT"></h2>
+    <p class="svc-intro" data-i18n="sI"></p>
+    <div class="svc-grid">
+      <div class="svc-col">
+        <h3 data-i18n="sg1"></h3>
+        <ul>
+          <li><h4 data-i18n="s11t"></h4><p data-i18n="s11p"></p></li>
+          <li><h4 data-i18n="s12t"></h4><p data-i18n="s12p"></p></li>
+          <li><h4 data-i18n="s13t"></h4><p data-i18n="s13p"></p></li>
+        </ul>
+      </div>
+      <div class="svc-col">
+        <h3 data-i18n="sg2"></h3>
+        <ul>
+          <li><h4 data-i18n="s21t"></h4><p data-i18n="s21p"></p></li>
+          <li><h4 data-i18n="s22t"></h4><p data-i18n="s22p"></p></li>
+          <li><h4 data-i18n="s23t"></h4><p data-i18n="s23p"></p></li>
+        </ul>
+      </div>
+      <div class="svc-col">
+        <h3 data-i18n="sg3"></h3>
+        <ul>
+          <li><h4 data-i18n="s31t"></h4><p data-i18n="s31p"></p></li>
+          <li><h4 data-i18n="s32t"></h4><p data-i18n="s32p"></p></li>
+          <li><h4 data-i18n="s33t"></h4><p data-i18n="s33p"></p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="models" id="modelos">
+  <div class="wrap">
+    <h2 data-i18n="mT"></h2>
+    <p class="sec-intro" data-i18n="mI"></p>
+    <div class="model-grid">
+      <article class="model">
+        <h3 data-i18n="m1t"></h3>
+        <p class="m-sub" data-i18n="m1s"></p>
+        <p class="m-desc" data-i18n="m1d"></p>
+        <ul>
+          <li data-i18n="m1i1"></li>
+          <li data-i18n="m1i2"></li>
+          <li data-i18n="m1i3"></li>
+        </ul>
+        <p class="m-res" data-i18n="m1r"></p>
+        <a class="btn" href="#contacto" data-i18n="mBtn"></a>
+      </article>
+      <article class="model">
+        <h3 data-i18n="m2t"></h3>
+        <p class="m-sub" data-i18n="m2s"></p>
+        <p class="m-desc" data-i18n="m2d"></p>
+        <ul>
+          <li data-i18n="m2i1"></li>
+          <li data-i18n="m2i2"></li>
+          <li data-i18n="m2i3"></li>
+          <li data-i18n="m2i4"></li>
+        </ul>
+        <p class="m-res" data-i18n="m2r"></p>
+        <a class="btn" href="#contacto" data-i18n="mBtn"></a>
+      </article>
+      <article class="model feat">
+        <h3 data-i18n="m3t"></h3>
+        <p class="m-sub" data-i18n="m3s"></p>
+        <p class="m-desc" data-i18n="m3d"></p>
+        <ul>
+          <li data-i18n="m3i1"></li>
+          <li data-i18n="m3i2"></li>
+          <li data-i18n="m3i3"></li>
+          <li data-i18n="m3i4"></li>
+          <li data-i18n="m3i5"></li>
+        </ul>
+        <p class="m-res" data-i18n="m3r"></p>
+        <a class="btn" href="#contacto" data-i18n="mBtn"></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="svc" id="aliados">
+  <div class="wrap">
+    <h2 data-i18n="pT"></h2>
+    <p class="svc-intro" data-i18n="pI"></p>
+    <div class="svc-grid">
+      <div class="svc-col">
+        <h3 data-i18n="pg1"></h3>
+        <ul>
+          <li><h4 data-i18n="p11t"></h4><p data-i18n="p11p"></p></li>
+          <li><h4 data-i18n="p12t"></h4><p data-i18n="p12p"></p></li>
+          <li><h4 data-i18n="p13t"></h4><p data-i18n="p13p"></p></li>
+        </ul>
+      </div>
+      <div class="svc-col">
+        <h3 data-i18n="pg2"></h3>
+        <ul>
+          <li><h4 data-i18n="p21t"></h4><p data-i18n="p21p"></p></li>
+          <li><h4 data-i18n="p22t"></h4><p data-i18n="p22p"></p></li>
+          <li><h4 data-i18n="p23t"></h4><p data-i18n="p23p"></p></li>
+        </ul>
+      </div>
+      <div class="svc-col">
+        <h3 data-i18n="pg3"></h3>
+        <ul>
+          <li><h4 data-i18n="p31t"></h4><p data-i18n="p31p"></p></li>
+          <li><h4 data-i18n="p32t"></h4><p data-i18n="p32p"></p></li>
+          <li><h4 data-i18n="p33t"></h4><p data-i18n="p33p"></p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <h2 data-i18n="fT"></h2>
+    <div class="faq-list">
+      <div class="faq-g">
+        <h3 data-i18n="fg1"></h3>
+        <details>
+          <summary data-i18n="q1"></summary>
+          <p data-i18n="r1"></p>
+        </details>
+        <details>
+          <summary data-i18n="q2"></summary>
+          <p data-i18n="r2"></p>
+        </details>
+      </div>
+      <div class="faq-g">
+        <h3 data-i18n="fg2"></h3>
+        <details>
+          <summary data-i18n="q3"></summary>
+          <p data-i18n="r3"></p>
+        </details>
+        <details>
+          <summary data-i18n="q4"></summary>
+          <p data-i18n="r4"></p>
+        </details>
+      </div>
+      <div class="faq-g">
+        <h3 data-i18n="fg3"></h3>
+        <details>
+          <summary data-i18n="q5"></summary>
+          <p data-i18n="r5"></p>
+        </details>
+        <details>
+          <summary data-i18n="q6"></summary>
+          <p data-i18n="r6"></p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="jobs" id="empleo">
+  <div class="wrap">
+    <h2 data-i18n="jT"></h2>
+    <p data-i18n="jP"></p>
+  </div>
+</section>
+
+<section class="principles" id="principios">
+  <div class="wrap">
+    <h2 data-i18n="prT"></h2>
+    <div class="three">
+      <div><h3 data-i18n="p1t"></h3><p data-i18n="p1p"></p></div>
+      <div><h3 data-i18n="p2t"></h3><p data-i18n="p2p"></p></div>
+      <div><h3 data-i18n="p3t"></h3><p data-i18n="p3p"></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap">
+    <h2 data-i18n="coT"></h2>
+    <p class="sec-intro" data-i18n="coP"></p>
+    <!-- Formulario de muestra: falta conectarlo a un servicio de correo o CRM para recibir las solicitudes -->
+    <form class="req" id="reqForm" novalidate>
+      <div class="f-row">
+        <label class="f"><span data-i18n="f_name"></span><input type="text" name="nombre" autocomplete="name" required></label>
+        <label class="f"><span data-i18n="f_email"></span><input type="email" name="email" autocomplete="email" required><small data-i18n="f_emailN"></small></label>
+      </div>
+      <div class="f-row">
+        <label class="f"><span data-i18n="f_res"></span>
+          <select name="residencia" required>
+            <option value="" data-i18n="f_choose"></option>
+            <option value="EAU" data-i18n="o_ae"></option>
+            <option value="Qatar" data-i18n="o_qa"></option>
+            <option value="Arabia Saudí" data-i18n="o_sa"></option>
+            <option value="España" data-i18n="o_es"></option>
+            <option value="Otros" data-i18n="o_ot"></option>
+          </select>
+        </label>
+        <label class="f"><span data-i18n="f_nat"></span><input type="text" name="nacionalidad" required></label>
+      </div>
+      <div class="f-row">
+        <label class="f"><span data-i18n="f_ch"></span>
+          <select name="canal" required>
+            <option value="" data-i18n="f_choose"></option>
+            <option>WhatsApp Business</option>
+            <option>Signal</option>
+            <option>Telegram</option>
+            <option value="Email" data-i18n="o_mail"></option>
+          </select>
+        </label>
+        <label class="f"><span data-i18n="f_vol"></span>
+          <select name="volumen" required>
+            <option value="" data-i18n="f_choose"></option>
+            <option value="$500K – $1M" data-i18n="v1">$500K – $1M</option>
+            <option value="$1M – $5M" data-i18n="v2">$1M – $5M</option>
+            <option value="$5M – $20M" data-i18n="v3">$5M – $20M</option>
+            <option value="+$20M" data-i18n="v4"></option>
+          </select>
+        </label>
+      </div>
+      <fieldset class="f-set">
+        <legend data-i18n="f_oth"></legend>
+        <label class="chk"><input type="checkbox" name="otros" value="Inmuebles MENA"><span data-i18n="x1"></span></label>
+        <label class="chk"><input type="checkbox" name="otros" value="Inmuebles UE"><span data-i18n="x2"></span></label>
+        <label class="chk"><input type="checkbox" name="otros" value="Carteras tradicionales"><span data-i18n="x3"></span></label>
+        <label class="chk"><input type="checkbox" name="otros" value="Empresas/Holdings"><span data-i18n="x4"></span></label>
+      </fieldset>
+      <fieldset class="f-set">
+        <legend data-i18n="f_goal"></legend>
+        <label class="chk"><input type="radio" name="objetivo" value="Relocalización" required><span data-i18n="g1"></span></label>
+        <label class="chk"><input type="radio" name="objetivo" value="Diversificación"><span data-i18n="g2"></span></label>
+        <label class="chk"><input type="radio" name="objetivo" value="Blindaje"><span data-i18n="g3"></span></label>
+        <label class="chk"><input type="radio" name="objetivo" value="Gestión"><span data-i18n="g4"></span></label>
+      </fieldset>
+      <fieldset class="f-set">
+        <legend data-i18n="f_urg"></legend>
+        <label class="chk"><input type="radio" name="urgencia" value="Inmediata" required><span data-i18n="u1"></span></label>
+        <label class="chk"><input type="radio" name="urgencia" value="Trimestral"><span data-i18n="u2"></span></label>
+        <label class="chk"><input type="radio" name="urgencia" value="Largo plazo"><span data-i18n="u3"></span></label>
+      </fieldset>
+      <label class="f"><span data-i18n="f_msg"></span><textarea name="mensaje" rows="5"></textarea></label>
+      <label class="chk priv"><input type="checkbox" name="privacidad" required><span data-i18n="f_priv"></span></label>
+      <button type="submit" class="btn" data-i18n="f_send"></button>
+    </form>
+    <div class="req-ok" id="reqOk" hidden tabindex="-1">
+      <h3 data-i18n="f_okT"></h3>
+      <p data-i18n="f_okP"></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-in">
+    <nav class="foot-nav" aria-label="Más secciones">
+      <a href="#aporte" data-i18n="nav1">Qué aporto</a>
+      <a href="#experiencia" data-i18n="navE">Experiencia</a>
+      <a href="#principios" data-i18n="nav2">Principios</a>
+      <a href="#aliados" data-i18n="navA">Aliados</a>
+      <a href="#empleo" data-i18n="navJ">Empleo</a>
+    </nav>
+    <p data-i18n="foot"></p>
+  </div>
+</footer>
+
+<script>
+var T = {
+  es: {
+    brand:"Salim Capital", modeD:"Oscuro", modeL:"Claro", menu:"Menú", navH:"Inicio", navS:"Servicios",
+    sT:"Servicios", sI:"Soluciones de patrimonio global en tres áreas que se complementan.",
+    sg1:"Activos digitales", sg2:"Movilidad de capital", sg3:"Blindaje legal y fiscal",
+    s11t:"Arquitectura de cartera cripto", s11p:"Carteras diversificadas según su perfil de riesgo. No es trading: es gestión de activos a largo plazo.",
+    s12t:"Estrategias de rendimiento", s12p:"Staking y DeFi de nivel institucional para generar flujos de ingresos sobre sus activos digitales.",
+    s13t:"Custodia y seguridad", s13p:"Almacenamiento en frío y firmas múltiples (multi-sig) para reducir el riesgo de hackeos o pérdida de claves.",
+    s21t:"Salida y entrada de capital", s21p:"Planificación para convertir activos digitales en liquidez o activos físicos en España, optimizando plazos y costes.",
+    s22t:"Inmobiliario con cripto", s22p:"Acompañamiento en la compra de inmuebles en España con su patrimonio digital como base, junto a los socios adecuados.",
+    s23t:"Patrimonio transnacional", s23p:"Una estructura que mantiene la agilidad de los mercados de Oriente Medio con la seguridad de la Unión Europea.",
+    s31t:"Fiscalidad España–MENA", s31p:"Análisis y planificación para evitar la doble imposición al trasladar su residencia o su capital a España.",
+    s32t:"Cumplimiento normativo", s32p:"Documentación del origen de fondos y cumplimiento de las normas de prevención de blanqueo (AML) y KYC.",
+    s33t:"Vehículos de inversión", s33p:"Sociedades, holdings o fundaciones para proteger el patrimonio y facilitar la sucesión en el marco europeo.",
+    navE:"Experiencia",
+    eT:"Experiencia y trayectoria",
+    eI:"He diseñado estrategias financieras para una clientela diversa y exigente, centradas en resolver retos complejos de movilidad de capital y optimización de activos.",
+    e1t:"Patrimonio familiar y family offices",
+    e1p:"Acompaño a familias del Golfo y a sus family offices en la transición de la riqueza generacional hacia activos europeos, diversificando carteras concentradas en energía e inmobiliario regional para preservar el legado familiar.",
+    e2t:"Pioneros del ecosistema digital",
+    e2p:"Trabajo con fundadores de proyectos blockchain y primeros inversores en criptoactivos para convertir sus ganancias en carteras diversificadas de activos reales en España, siempre dentro de un marco de cumplimiento normativo estricto.",
+    e3t:"Alta dirección y ejecutivos globales",
+    e3p:"Asesoro a directivos que operan entre Oriente Medio y Occidente en planificación financiera transfronteriza, fiscalidad por residencia y vehículos de inversión que les permitan moverse con fluidez entre el Golfo y la UE.",
+    e4t:"Inversión boutique y capital privado",
+    e4p:"Colaboro con firmas de inversión privada y grupos de inversores interesados en España, identificando oportunidades fuera de mercado en el sector inmobiliario y empresarial y estructurando la entrada de capital desde la región MENA.",
+    nav0:"Sobre mí", nav1:"Qué aporto", nav2:"Principios", nav3:"Contacto",
+    aT:"El puente entre dos mundos", aS:"Visión global, ejecución local.",
+    a1:"Durante la última década he operado en el epicentro de la transformación financiera global: Oriente Medio. Me he especializado en activos digitales y he ayudado a inversores de alto patrimonio y fondos familiares a navegar la volatilidad de las criptomonedas y a aprovechar la tecnología blockchain.",
+    a2:"He aprendido que, en las finanzas de alto nivel, la confianza es la moneda más valiosa y la discreción, el pilar fundamental.",
+    a3:"Hoy traslado mi centro de operaciones a España para ser el enlace entre el dinamismo financiero de la región MENA y la solidez institucional de la Unión Europea. El tránsito de capitales digitales entre ambas regiones plantea retos regulatorios y fiscales complejos que exigen conocer a fondo las dos jurisdicciones.",
+    a4:"Mi propuesta es eliminar la fricción: que la transición de su patrimonio sea fluida, legal y optimizada.",
+    h1:"Estrategia financiera global: de Oriente Medio a la Unión Europea",
+    sub:"Soy Said Salim, fundador de Salim Capital y asesor financiero especializado en activos digitales y en la conexión entre los mercados del Golfo y Europa.",
+    lead:"Ayudo a inversores a convertir la volatilidad de las criptomonedas en patrimonio sólido y sostenible, y a mover capital desde la economía de Oriente Medio hacia la seguridad jurídica y las oportunidades de inversión de la Unión Europea.",
+    cta:"Solicitar una evaluación", cta2:"Ver qué aporto",
+    end1:"Oriente Medio y Norte de África", end2:"España",
+    giveT:"Qué aporto a su patrimonio",
+    g1t:"Criptoactivos", g1p:"Gestión avanzada y seguridad de activos digitales.",
+    g2t:"Visión transfronteriza", g2p:"Estrategias para llevar capital de la región MENA (Oriente Medio y Norte de África) a España.",
+    g3t:"Seguridad legal", g3p:"Optimización fiscal y cumplimiento normativo en ambas regiones.",
+    mission:"Mi misión es simple: dar la claridad, la estructura y la seguridad que su capital necesita para crecer sin fronteras.",
+    prT:"Tres principios que no cambian",
+    p1t:"Discreción", p1p:"El silencio es la máxima seguridad.",
+    p2t:"Integridad técnica", p2p:"No recomendamos nada que no hayamos auditado y comprendido por completo.",
+    p3t:"Alineación de intereses", p3p:"Solo prosperamos cuando nuestros clientes prosperan.",
+    coT:"Trabajo con un número limitado de mandatos",
+    coP:"Cuéntenos su caso y evaluaré personalmente si puedo aportar valor a su patrimonio.",
+    foot:"© 2026 Salim Capital"
+  },
+  en: {
+    brand:"Salim Capital", modeD:"Dark", modeL:"Light", menu:"Menu", navH:"Home", navS:"Services",
+    sT:"Services", sI:"Global wealth solutions across three complementary areas.",
+    sg1:"Digital assets", sg2:"Capital mobility", sg3:"Legal and tax protection",
+    s11t:"Crypto portfolio architecture", s11p:"Diversified portfolios built on your risk profile. Not trading: long-term asset management.",
+    s12t:"Yield strategies", s12p:"Institutional-grade staking and DeFi to generate income on your digital assets.",
+    s13t:"Custody and security", s13p:"Cold storage and multi-signature setups to reduce the risk of hacks or lost keys.",
+    s21t:"Capital exit and entry", s21p:"Planning to convert digital assets into cash or physical assets in Spain, optimizing timing and costs.",
+    s22t:"Real estate with crypto", s22p:"Support buying property in Spain using your digital wealth as the base, with the right partners.",
+    s23t:"Cross-border wealth", s23p:"A structure that keeps the agility of Middle Eastern markets with the security of the European Union.",
+    s31t:"Spain–MENA taxation", s31p:"Analysis and planning to avoid double taxation when moving your residence or capital to Spain.",
+    s32t:"Regulatory compliance", s32p:"Documenting the source of funds and meeting anti-money-laundering (AML) and KYC rules.",
+    s33t:"Investment vehicles", s33p:"Companies, holdings or foundations to protect wealth and ease succession within the European framework.",
+    navE:"Experience",
+    eT:"Experience and track record",
+    eI:"I have designed financial strategies for a diverse and demanding clientele, focused on solving complex challenges of capital mobility and asset optimization.",
+    e1t:"Family wealth and family offices",
+    e1p:"I support Gulf families and their family offices in moving generational wealth into European assets, diversifying portfolios concentrated in energy and regional real estate to preserve the family legacy.",
+    e2t:"Pioneers of the digital ecosystem",
+    e2p:"I work with blockchain founders and early crypto investors to turn their gains into diversified portfolios of real assets in Spain, always within a strict compliance framework.",
+    e3t:"Senior executives and global leaders",
+    e3p:"I advise executives working between the Middle East and the West on cross-border financial planning, residence-based taxation and investment vehicles that let them move smoothly between the Gulf and the EU.",
+    e4t:"Boutique investment and private capital",
+    e4p:"I collaborate with private investment firms and investor groups interested in Spain, identifying off-market opportunities in real estate and business and structuring capital entry from the MENA region.",
+    nav0:"About me", nav1:"What I offer", nav2:"Principles", nav3:"Contact",
+    aT:"The bridge between two worlds", aS:"Global vision, local execution.",
+    a1:"Over the past decade I have worked at the epicenter of global financial transformation: the Middle East. I specialized in digital assets and helped high-net-worth investors and family funds navigate crypto volatility and make the most of blockchain technology.",
+    a2:"I learned that in high-level finance, trust is the most valuable currency and discretion is the foundation.",
+    a3:"Today I am moving my base of operations to Spain to serve as the link between the financial dynamism of the MENA region and the institutional strength of the European Union. Moving digital capital between these two regions raises complex regulatory and tax challenges that require deep knowledge of both jurisdictions.",
+    a4:"My proposal is to remove friction: to make the transition of your wealth smooth, legal and optimized.",
+    h1:"Global financial strategy: from the Middle East to the European Union",
+    sub:"I’m Said Salim, founder of Salim Capital and a financial advisor specializing in digital assets and the link between Gulf and European markets.",
+    lead:"I help investors turn crypto volatility into solid, lasting wealth, and move capital from the Middle East’s dynamic economy toward the legal certainty and investment opportunities of the European Union.",
+    cta:"Request an assessment", cta2:"See what I offer",
+    end1:"Middle East and North Africa", end2:"Spain",
+    giveT:"What I bring to your wealth",
+    g1t:"Crypto assets", g1p:"Advanced management and security of digital assets.",
+    g2t:"Cross-border vision", g2p:"Strategies to bring capital from the MENA region (Middle East and North Africa) to Spain.",
+    g3t:"Legal security", g3p:"Tax optimization and regulatory compliance in both regions.",
+    mission:"My mission is simple: to give your capital the clarity, structure and security it needs to grow without borders.",
+    prT:"Three principles that don’t change",
+    p1t:"Discretion", p1p:"Silence is the highest security.",
+    p2t:"Technical integrity", p2p:"We recommend nothing we haven’t audited and fully understood.",
+    p3t:"Aligned interests", p3p:"We only prosper when our clients prosper.",
+    coT:"I work with a limited number of mandates",
+    coP:"Tell me about your case and I will personally assess whether I can add value to your wealth.",
+    foot:"© 2026 Salim Capital"
+  },
+  ar: {}
+};
+Object.assign(T.es, {"navM": "Modelos", "navA": "Aliados", "navF": "Preguntas", "navJ": "Empleo", "footNav": "Más secciones", "mT": "Modelos de colaboración", "mI": "Tres niveles de intervención, según lo que necesite.", "mBtn": "Solicitar este modelo", "m1t": "Consultoría estratégica", "m1s": "Para resolver un problema concreto", "m1d": "Para inversores que necesitan aclarar una duda legal, fiscal o técnica puntual.", "m1i1": "Sesión de diagnóstico privada", "m1i2": "Hoja de ruta para un problema concreto: declaración de activos, seguridad de wallets o análisis de un token", "m1i3": "Seguimiento por email de la solución aplicada", "m1r": "Resultado: claridad inmediata y menos riesgos legales y técnicos.", "m2t": "Gestión de patrimonio", "m2s": "Optimización continua", "m2d": "Para quien tiene una cartera digital relevante y no dispone del tiempo o la especialización para gestionarla a diario.", "m2i1": "Rebalanceo mensual de la cartera según el mercado", "m2i2": "Búsqueda y aplicación de estrategias de rendimiento pasivo", "m2i3": "Informe mensual de evolución y análisis de riesgos", "m2i4": "Acceso directo para consultas rápidas sobre el mercado", "m2r": "Resultado: crecimiento ordenado del capital con el mínimo esfuerzo para usted.", "m3t": "Solución Puente Integral", "m3s": "Transformación patrimonial completa", "m3d": "Para grandes patrimonios de Oriente Medio que quieren establecerse, invertir o diversificar en España.", "m3i1": "Todo lo incluido en Gestión de patrimonio", "m3i2": "Planificación completa del flujo de fondos MENA → España", "m3i3": "Estructuración de la residencia fiscal y optimización de impuestos en ambas jurisdicciones", "m3i4": "Búsqueda, filtrado y gestión de activos inmobiliarios o empresariales en España", "m3i5": "Orientación sobre las vías de residencia en España, junto a abogados especializados", "m3r": "Resultado: una transición patrimonial discreta, sólida en lo legal y eficiente en lo financiero.", "pT": "Red de aliados", "pI": "Ninguna estrategia patrimonial funciona en solitario. Trabajo con especialistas en cada jurisdicción para que cada pieza encaje con precisión.", "pg1": "Legal y fiscal", "pg2": "Activos reales", "pg3": "Infraestructura digital", "p11t": "Despachos de abogados", "p11p": "Derecho mercantil, fiscalidad internacional y sucesiones en España y la UE.", "p12t": "Asesores fiscales", "p12p": "Fiscalidad para expatriados y nuevos residentes, incluido el régimen de impatriados (Ley Beckham).", "p13t": "Especialistas en compliance", "p13p": "Debida diligencia y certificación del origen de fondos (AML/KYC).", "p21t": "Boutiques inmobiliarias de lujo", "p21p": "Propiedades fuera de los portales públicos en Madrid, Barcelona, Marbella y la Costa del Sol.", "p22t": "Gestoras de patrimonio inmobiliario", "p22p": "Administración, alquiler y mantenimiento de los inmuebles adquiridos.", "p23t": "Asesores de inversión empresarial", "p23p": "Contacto con startups y empresas consolidadas en España.", "p31t": "Custodios institucionales", "p31p": "Custodia de nivel bancario para grandes volúmenes de activos.", "p32t": "Expertos en ciberseguridad", "p32p": "Protección de activos digitales y auditorías de seguridad de carteras privadas.", "p33t": "Exchanges regulados", "p33p": "Plataformas de intercambio que cumplen la normativa europea y del Golfo.", "fT": "Preguntas frecuentes", "fg1": "Seguridad y custodia", "fg2": "Fiscalidad y legalidad", "fg3": "Confidencialidad y ética", "q1": "¿Tengo que entregar mis claves privadas o mi frase semilla?", "r1": "No. Trabajamos con custodia segregada y firma múltiple (multi-sig): ninguna transacción se ejecuta sin su autorización. Usted mantiene el control de sus activos; nosotros aportamos la estrategia y la ejecución técnica.", "q2": "¿Cómo se protegen mis activos frente a ciberataques o fallos?", "r2": "Con protocolos de nivel institucional. Recomendamos y configuramos el paso a carteras frías (fuera de línea) y hardware de seguridad avanzado, para depender menos de los exchanges centralizados y que solo usted tenga la llave.", "q3": "¿Es legal trasladar capital en criptomonedas del Golfo a España?", "r3": "Sí, siempre que se haga dentro del marco normativo. El reto no es la legalidad sino la trazabilidad: documentamos el origen de los fondos y nos aseguramos de que el traslado cumpla las normas AML y KYC de ambas regiones.", "q4": "¿Cómo me ayuda a evitar problemas con la Agencia Tributaria?", "r4": "Con planificación previa. Diseñamos la estrategia fiscal antes de que el capital entre en España, analizamos el impacto en el Impuesto sobre el Patrimonio y en el IRPF, y coordinamos las declaraciones de bienes en el extranjero (modelos 720 y 721) para evitar sorpresas o sanciones.", "q5": "¿Cómo protege la confidencialidad de sus clientes?", "r5": "Todos los mandatos empiezan con un acuerdo de confidencialidad (NDA) vinculante. Usamos canales de comunicación cifrados y no compartimos la identidad de nuestros clientes ni el volumen de sus activos.", "q6": "¿Qué pasa si cambian mis objetivos o quiero terminar la relación?", "r6": "Nuestros modelos son flexibles. Como usted mantiene sus claves y la propiedad de sus activos, el cambio o la finalización de la gestión es inmediato y sin fricciones. Queremos que se sienta seguro, no atado.", "jT": "Trabaja con nosotros", "jP": "Ahora mismo no hay vacantes abiertas. Si su perfil encaja en el ámbito financiero, legal o tecnológico entre Oriente Medio y Europa, puede enviarnos su candidatura a [TU EMAIL].", "coT": "Solicitud de apertura de relación profesional", "coP": "Para dedicar a cada estrategia la máxima atención, trabajo con un número limitado de mandatos: solo aquellos donde la conexión MENA–UE pueda aportar un impacto real y sostenible. Complete esta solicitud para valorar si podemos colaborar.", "f_name": "Nombre completo", "f_email": "Correo electrónico corporativo", "f_emailN": "Para mayor seguridad, se prefieren correos corporativos.", "f_res": "Residencia fiscal actual", "f_choose": "Seleccione una opción", "o_ae": "Emiratos Árabes Unidos", "o_qa": "Catar", "o_sa": "Arabia Saudí", "o_es": "España", "o_ot": "Otro país", "f_nat": "Nacionalidad", "f_ch": "Canal de comunicación preferido", "o_mail": "Correo electrónico", "f_vol": "Volumen de activos digitales a gestionar", "v4": "Más de $20M", "f_oth": "Otros activos relevantes (opcional)", "x1": "Inmuebles en la región MENA", "x2": "Inmuebles en la Unión Europea", "x3": "Carteras tradicionales (acciones y bonos)", "x4": "Empresas o holdings activos", "f_goal": "Objetivo principal", "g1": "Relocalización: trasladar capital digital de Oriente Medio a España", "g2": "Diversificación: convertir activos digitales en inmobiliario o empresas", "g3": "Blindaje: optimización fiscal y cumplimiento normativo", "g4": "Gestión: rendimiento y custodia de activos digitales", "f_urg": "Urgencia", "u1": "Inmediata (menos de 30 días)", "u2": "Planificación trimestral", "u3": "Estrategia a largo plazo", "f_msg": "¿Hay algún reto o restricción legal o fiscal que debamos conocer?", "f_priv": "He leído y acepto la política de privacidad. [ENLACE A LA POLÍTICA DE PRIVACIDAD]", "f_send": "Enviar solicitud", "f_okT": "Solicitud recibida", "f_okP": "Analizaré personalmente su caso. Si existe encaje entre sus objetivos y mi metodología, recibirá una invitación a una sesión de diagnóstico privada en un plazo de 48 a 72 horas."});
+Object.assign(T.en, {"navM": "Models", "navA": "Partners", "navF": "FAQ", "navJ": "Careers", "footNav": "More sections", "mT": "Ways to work together", "mI": "Three levels of involvement, depending on what you need.", "mBtn": "Request this model", "m1t": "Strategic consulting", "m1s": "To solve a specific problem", "m1d": "For investors who need to resolve a one-off legal, tax or technical question.", "m1i1": "Private diagnostic session", "m1i2": "Roadmap for a specific problem: asset reporting, wallet security or token analysis", "m1i3": "Email follow-up on the solution put in place", "m1r": "Result: immediate clarity and fewer legal and technical risks.", "m2t": "Wealth management", "m2s": "Ongoing optimization", "m2d": "For those with a significant digital portfolio who lack the time or expertise to manage it day to day.", "m2i1": "Monthly portfolio rebalancing based on the market", "m2i2": "Sourcing and deploying passive yield strategies", "m2i3": "Monthly performance and risk report", "m2i4": "Direct access for quick questions on market moves", "m2r": "Result: steady capital growth with minimal effort on your part.", "m3t": "Full Bridge Solution", "m3s": "Complete wealth transformation", "m3d": "For large Middle Eastern estates looking to settle, invest or diversify in Spain.", "m3i1": "Everything in Wealth management", "m3i2": "Full planning of the MENA → Spain flow of funds", "m3i3": "Tax residence structuring and tax optimization in both jurisdictions", "m3i4": "Sourcing, screening and managing real estate or business assets in Spain", "m3i5": "Guidance on residence options in Spain, with specialized lawyers", "m3r": "Result: a discreet wealth transition, legally sound and financially efficient.", "pT": "Partner network", "pI": "No wealth strategy works in isolation. I work with specialists in every jurisdiction so that each piece fits precisely.", "pg1": "Legal and tax", "pg2": "Real assets", "pg3": "Digital infrastructure", "p11t": "Law firms", "p11p": "Corporate law, international tax and succession in Spain and the EU.", "p12t": "Tax advisors", "p12p": "Tax planning for expatriates and new residents, including Spain's impatriate regime (Beckham Law).", "p13t": "Compliance specialists", "p13p": "Due diligence and certification of the source of funds (AML/KYC).", "p21t": "Luxury real estate boutiques", "p21p": "Off-market properties in Madrid, Barcelona, Marbella and the Costa del Sol.", "p22t": "Property managers", "p22p": "Administration, letting and maintenance of acquired properties.", "p23t": "Business investment advisors", "p23p": "Introductions to startups and established companies in Spain.", "p31t": "Institutional custodians", "p31p": "Bank-grade custody for large asset volumes.", "p32t": "Cybersecurity experts", "p32p": "Digital asset protection and security audits for private portfolios.", "p33t": "Regulated exchanges", "p33p": "Trading platforms that comply with European and Gulf regulations.", "fT": "Frequently asked questions", "fg1": "Security and custody", "fg2": "Tax and legality", "fg3": "Confidentiality and ethics", "q1": "Do I have to hand over my private keys or seed phrase?", "r1": "No. We use segregated custody and multi-signature schemes: no transaction can be executed without your authorization. You keep control of your assets; we provide the strategy and the technical execution.", "q2": "How are my assets protected against cyberattacks or failures?", "r2": "With institutional-grade protocols. We recommend and set up the move to cold wallets (offline storage) and advanced security hardware, reducing reliance on centralized exchanges so that only you hold the key.", "q3": "Is it legal to move crypto capital from the Gulf to Spain?", "r3": "Yes, as long as it is done within the regulatory framework. The challenge is not legality but traceability: we document the source of funds and make sure the transfer meets AML and KYC rules in both regions.", "q4": "How do you help me avoid problems with the Spanish Tax Agency?", "r4": "Through advance planning. We design the tax strategy before your capital enters Spain, assess the impact on Wealth Tax and Income Tax, and coordinate the foreign-asset reporting forms (720 and 721) to avoid surprises or penalties.", "q5": "How do you protect client confidentiality?", "r5": "Every mandate begins with a binding non-disclosure agreement (NDA). We use encrypted communication channels and never share our clients' identities or the size of their assets.", "q6": "What if my goals change or I want to end the relationship?", "r6": "Our models are flexible. Because you keep your keys and ownership of your assets, changing or ending the service is immediate and frictionless. We want you to feel secure, not tied in.", "jT": "Work with us", "jP": "There are no open positions right now. If your background fits the financial, legal or technology space between the Middle East and Europe, you can send your application to [YOUR EMAIL].", "coT": "Request to open a professional relationship", "coP": "To give every strategy full attention, I take on a limited number of mandates: only those where the MENA–EU connection can create real, lasting impact. Please complete this request so we can assess whether we can work together.", "f_name": "Full name", "f_email": "Corporate email", "f_emailN": "For greater security, corporate email addresses are preferred.", "f_res": "Current tax residence", "f_choose": "Select an option", "o_ae": "United Arab Emirates", "o_qa": "Qatar", "o_sa": "Saudi Arabia", "o_es": "Spain", "o_ot": "Other country", "f_nat": "Nationality", "f_ch": "Preferred communication channel", "o_mail": "Email", "f_vol": "Volume of digital assets to manage", "v4": "Over $20M", "f_oth": "Other significant assets (optional)", "x1": "Real estate in the MENA region", "x2": "Real estate in the European Union", "x3": "Traditional portfolios (stocks and bonds)", "x4": "Active companies or holdings", "f_goal": "Main goal", "g1": "Relocation: move digital capital from the Middle East to Spain", "g2": "Diversification: turn digital assets into real estate or businesses", "g3": "Protection: tax optimization and regulatory compliance", "g4": "Management: yield and custody of digital assets", "f_urg": "Urgency", "u1": "Immediate (under 30 days)", "u2": "Quarterly planning", "u3": "Long-term strategy", "f_msg": "Is there any legal or tax challenge or restriction we should know about?", "f_priv": "I have read and accept the privacy policy. [LINK TO PRIVACY POLICY]", "f_send": "Send request", "f_okT": "Request received", "f_okP": "I will personally review your case. If your goals and my approach are a good fit, you will receive an invitation to a private diagnostic session within 48 to 72 hours."});
+T.es.v1=T.en.v1="$500K – $1M"; T.es.v2=T.en.v2="$1M – $5M"; T.es.v3=T.en.v3="$5M – $20M";
+Object.assign(T.ar, {"brand": "سالم كابيتال", "modeD": "داكن", "modeL": "فاتح", "menu": "القائمة", "navH": "الرئيسية", "nav0": "من أنا", "nav1": "ما أقدّمه", "nav2": "المبادئ", "nav3": "تواصل معي", "navE": "الخبرة", "navS": "الخدمات", "navM": "نماذج التعاون", "navA": "الشركاء", "navF": "الأسئلة الشائعة", "navJ": "الوظائف", "footNav": "أقسام أخرى", "h1": "استراتيجية مالية عالمية: من الشرق الأوسط إلى الاتحاد الأوروبي", "sub": "أنا سعيد سالم، مؤسّس «سالم كابيتال»، مستشار مالي متخصّص في الأصول الرقمية وفي الربط بين أسواق الخليج وأوروبا.", "lead": "أساعد المستثمرين على تحويل تقلّبات العملات المشفّرة إلى ثروة راسخة ومستدامة، وعلى نقل رؤوس أموالهم من اقتصادات الشرق الأوسط الديناميكية إلى الاتحاد الأوروبي بما يوفّره من أمان قانوني وفرص استثمارية.", "cta": "طلب تقييم", "cta2": "اكتشفوا ما أقدّمه", "end1": "الشرق الأوسط وشمال أفريقيا", "end2": "إسبانيا", "giveT": "ما أقدّمه لثروتكم", "g1t": "الأصول المشفّرة", "g1p": "إدارة متقدّمة للأصول الرقمية وحماية محكمة لها.", "g2t": "رؤية عابرة للحدود", "g2p": "استراتيجيات لنقل رؤوس الأموال من منطقة الشرق الأوسط وشمال أفريقيا إلى إسبانيا.", "g3t": "الأمان القانوني", "g3p": "تحسين ضريبي وامتثال تنظيمي في المنطقتين.", "mission": "رسالتي واضحة: أن أمنح رأس مالكم الوضوح والهيكلة والأمان، لينمو بلا حدود.", "prT": "ثلاثة مبادئ لا نحيد عنها", "p1t": "الكتمان التام", "p1p": "الصمت هو أعلى درجات الأمان.", "p2t": "النزاهة التقنية", "p2p": "لا نوصي بأي شيء لم ندقّقه ونفهمه فهمًا كاملًا.", "p3t": "توافق المصالح", "p3p": "نجاحنا من نجاح عملائنا.", "aT": "الجسر بين عالمين", "aS": "رؤية عالمية، وتنفيذ محلي.", "a1": "على مدى العقد الماضي، عملتُ في قلب التحوّل المالي العالمي: الشرق الأوسط. وتخصّصتُ في منظومة الأصول الرقمية، فساعدتُ كبار المستثمرين والمكاتب العائلية على إدارة تقلّبات العملات المشفّرة والاستفادة من ثورة تقنية البلوك تشين.", "a2": "وتعلّمتُ أن الثقة في عالم المال الرفيع هي العملة الأثمن، وأن الكتمان هو الركيزة الأولى.", "a3": "واليوم أنقل مركز أعمالي إلى إسبانيا، لأكون حلقة الوصل بين الحيوية المالية لمنطقة الشرق الأوسط وشمال أفريقيا والرسوخ المؤسسي للاتحاد الأوروبي. فانتقال رؤوس الأموال الرقمية بين المنطقتين ينطوي على تحدّيات تنظيمية وضريبية معقّدة، تتطلّب معرفة عميقة بالنظامين معًا.", "a4": "وما أقترحه بسيط: إزالة كل ما يعيق انتقال ثروتكم، ليكون سلسًا ونظاميًا ومُحسَّنًا.", "eT": "الخبرة والمسيرة", "eI": "صمّمتُ استراتيجيات مالية لعملاء متنوّعين ورفيعي المستوى، وتركّز عملي على حلّ التحدّيات المعقّدة المتعلّقة بانتقال رؤوس الأموال وتحسين الأصول.", "e1t": "ثروات العائلات والمكاتب العائلية", "e1p": "أرافق عائلات خليجية ومكاتبها العائلية في نقل الثروة عبر الأجيال نحو أصول أوروبية، وتنويع المحافظ المتركّزة في قطاعَي الطاقة والعقار الإقليمي، حفاظًا على إرث العائلة.", "e2t": "روّاد المنظومة الرقمية", "e2p": "أعمل مع مؤسّسي مشاريع البلوك تشين والمستثمرين الأوائل في الأصول المشفّرة على تحويل أرباحهم إلى محافظ متنوّعة من الأصول الحقيقية في إسبانيا، ضمن إطار صارم من الامتثال التنظيمي.", "e3t": "كبار التنفيذيين", "e3p": "أقدّم المشورة للقيادات العاملة بين الشرق الأوسط والغرب في التخطيط المالي العابر للحدود، والضرائب المرتبطة بالإقامة، وأدوات الاستثمار التي تتيح لهم التنقّل بسلاسة بين الخليج والاتحاد الأوروبي.", "e4t": "الاستثمار الخاص والصناديق المتخصّصة", "e4p": "أتعاون مع شركات الاستثمار الخاص ومجموعات المستثمرين المهتمّين بالسوق الإسبانية، فأرصد فرصًا غير معروضة في السوق في قطاعَي العقار والأعمال، وأُهيكل دخول رؤوس الأموال من المنطقة بكفاءة.", "sT": "الخدمات", "sI": "حلول متكاملة لإدارة الثروات في ثلاثة مجالات.", "sg1": "الأصول الرقمية", "sg2": "انتقال رؤوس الأموال", "sg3": "الحماية القانونية والضريبية", "s11t": "هيكلة محفظة الأصول المشفّرة", "s11p": "محافظ متنوّعة تُبنى وفق مستوى المخاطرة المناسب لكم. ليست مضاربة، بل إدارة أصول طويلة الأجل.", "s12t": "استراتيجيات العائد", "s12p": "التخزين (Staking) والتمويل اللامركزي (DeFi) بمعايير مؤسسية، لتوليد تدفّقات دخل منتظمة من أصولكم الرقمية.", "s13t": "الحفظ والأمان", "s13p": "التخزين البارد والتوقيعات المتعدّدة (Multi-sig) للحدّ من مخاطر الاختراق أو فقدان المفاتيح.", "s21t": "خروج رؤوس الأموال ودخولها", "s21p": "تخطيط تقني لتحويل الأصول الرقمية إلى سيولة أو أصول ملموسة في إسبانيا، مع تقليص المدد والتكاليف.", "s22t": "الاستثمار العقاري بالأصول المشفّرة", "s22p": "مرافقتكم في شراء العقارات في إسبانيا انطلاقًا من ثروتكم الرقمية، بالتعاون مع الشركاء المناسبين.", "s23t": "تخطيط الثروة العابرة للحدود", "s23p": "هيكل يجمع بين مرونة أسواق الشرق الأوسط وأمان الاتحاد الأوروبي.", "s31t": "الضرائب بين إسبانيا والمنطقة", "s31p": "تحليل وتخطيط لتفادي الازدواج الضريبي عند نقل إقامتكم أو رأس مالكم إلى إسبانيا.", "s32t": "الامتثال التنظيمي", "s32p": "توثيق مصدر الأموال والالتزام بقواعد مكافحة غسل الأموال (AML) ومعرفة العميل (KYC).", "s33t": "أدوات الاستثمار", "s33p": "تأسيس شركات أو شركات قابضة أو مؤسسات لحماية الثروة وتيسير انتقالها إلى الورثة ضمن الإطار الأوروبي.", "mT": "نماذج التعاون", "mI": "ثلاثة مستويات من المرافقة، بحسب احتياجاتكم.", "mBtn": "طلب هذا النموذج", "m1t": "الاستشارة الاستراتيجية", "m1s": "لحلّ مسألة محدّدة", "m1d": "للمستثمرين الذين يحتاجون إلى إجابة واضحة عن مسألة قانونية أو ضريبية أو تقنية بعينها.", "m1i1": "جلسة تشخيص خاصة", "m1i2": "خارطة طريق لمسألة محدّدة: الإفصاح عن الأصول، أو تأمين المحافظ، أو تحليل رمز رقمي", "m1i3": "متابعة عبر البريد الإلكتروني لتطبيق الحلّ", "m1r": "النتيجة: وضوح فوري وتقليل المخاطر القانونية والتقنية.", "m2t": "إدارة الثروة", "m2s": "تحسين مستمر", "m2d": "لمن يملك محفظة رقمية كبيرة ولا يتّسع وقته أو تخصّصه لإدارتها يوميًا.", "m2i1": "إعادة موازنة شهرية للمحفظة وفق تطوّرات السوق", "m2i2": "رصد أفضل استراتيجيات العائد السلبي وتطبيقها", "m2i3": "تقرير شهري عن الأداء وتحليل المخاطر", "m2i4": "قناة مباشرة للاستفسارات السريعة حول تحرّكات السوق", "m2r": "النتيجة: نموّ مدروس لرأس المال، بأقلّ قدر من العناء.", "m3t": "حلّ «الجسر المتكامل»", "m3s": "تحوّل شامل للثروة", "m3d": "للثروات الكبيرة في الشرق الأوسط الراغبة في الاستقرار أو الاستثمار أو التنويع في إسبانيا.", "m3i1": "كل ما تتضمّنه خدمة إدارة الثروة", "m3i2": "تخطيط متكامل لتدفّق الأموال من المنطقة إلى إسبانيا", "m3i3": "هيكلة الإقامة الضريبية وتحسين العبء الضريبي في البلدين", "m3i4": "البحث عن الأصول العقارية والتجارية في إسبانيا وانتقاؤها وإدارتها", "m3i5": "إرشادكم إلى خيارات الإقامة المتاحة في إسبانيا بالتعاون مع محامين متخصّصين", "m3r": "النتيجة: انتقال للثروة يتمّ بكتمان، متين قانونيًا وفعّال ماليًا.", "pT": "شبكة الشركاء", "pI": "لا تنجح أي استراتيجية للثروة بمعزل عن غيرها؛ لذلك أعمل مع نخبة من المتخصّصين في كل بلد، لتتكامل كل قطعة بدقّة.", "pg1": "القانون والضرائب", "pg2": "الأصول الحقيقية", "pg3": "البنية التحتية الرقمية", "p11t": "مكاتب محاماة متخصّصة", "p11p": "القانون التجاري والضرائب الدولية وقانون المواريث في إسبانيا والاتحاد الأوروبي.", "p12t": "مستشارون ضريبيون", "p12p": "التخطيط الضريبي للمغتربين والمقيمين الجدد، بما في ذلك النظام الخاص بالوافدين في إسبانيا (قانون بيكهام).", "p13t": "متخصّصو الامتثال", "p13p": "العناية الواجبة وإثبات مصدر الأموال (AML/KYC).", "p21t": "وكالات العقارات الفاخرة", "p21p": "عقارات غير معروضة على المنصّات العامة في مدريد وبرشلونة وماربيا وكوستا ديل سول.", "p22t": "شركات إدارة العقارات", "p22p": "إدارة العقارات المقتناة وتأجيرها وصيانتها.", "p23t": "مستشارو الاستثمار في الشركات", "p23p": "صلة مباشرة بالشركات الناشئة والشركات الراسخة في إسبانيا.", "p31t": "جهات حفظ مؤسسية", "p31p": "حفظ بمعايير مصرفية للأحجام الكبيرة من الأصول.", "p32t": "خبراء الأمن السيبراني", "p32p": "حماية الأصول الرقمية وتدقيق أمان المحافظ الخاصة.", "p33t": "منصّات تداول مرخّصة", "p33p": "منصّات ملتزمة بالأنظمة الأوروبية والخليجية.", "fT": "الأسئلة الشائعة", "fg1": "الأمان والحفظ", "fg2": "الضرائب والجانب القانوني", "fg3": "السرّية والأخلاقيات", "q1": "هل يجب أن أسلّمكم مفاتيحي الخاصة أو عبارة الاسترداد؟", "r1": "إطلاقًا. نعتمد الحفظ المنفصل وأنظمة التوقيع المتعدّد (Multi-sig)، فلا تُنفَّذ أي معاملة دون موافقتكم الصريحة. تبقى السيطرة الكاملة على أصولكم بأيديكم، ونتولّى نحن الاستراتيجية والتنفيذ التقني.", "q2": "كيف تُحمى أصولي من الهجمات الإلكترونية أو الأعطال؟", "r2": "ببروتوكولات بمعايير مؤسسية؛ إذ نوصي بنقل الأصول إلى محافظ باردة غير متّصلة بالإنترنت وأجهزة أمان متقدّمة ونتولّى إعدادها، للحدّ من الاعتماد على المنصّات المركزية، بحيث يبقى المفتاح بيدكم وحدكم.", "q3": "هل يجوز قانونًا نقل رؤوس الأموال بالعملات المشفّرة من الخليج إلى إسبانيا؟", "r3": "نعم، ما دام النقل يتمّ ضمن الإطار التنظيمي. فالتحدّي ليس في المشروعية بل في إمكانية التتبّع: نوثّق مصدر الأموال ونتحقّق من التزام النقل بقواعد مكافحة غسل الأموال ومعرفة العميل في المنطقتين.", "q4": "كيف تساعدونني على تجنّب الإشكالات مع مصلحة الضرائب الإسبانية؟", "r4": "بالتخطيط المسبق. نضع الاستراتيجية الضريبية قبل دخول رأس المال إلى إسبانيا، ونحلّل أثره على ضريبة الثروة وضريبة الدخل، وننسّق تقديم إقرارات الأصول في الخارج (النموذجان 720 و721)، تفاديًا لأي مفاجآت أو غرامات.", "q5": "كيف تحافظون على سرّية بيانات عملائكم؟", "r5": "يبدأ كل تكليف بتوقيع اتفاقية سرّية (NDA) ملزمة. ونعتمد قنوات تواصل مشفّرة، ولا نكشف هوية عملائنا أو حجم أصولهم.", "q6": "ماذا لو تغيّرت أهدافي أو قرّرتُ إنهاء العلاقة؟", "r6": "نماذجنا مرنة. وبما أنكم تحتفظون بمفاتيحكم وبملكية أصولكم، فإن تعديل الخدمة أو إنهاءها يتمّ فورًا ودون أي تعقيد. غايتنا أن تشعروا بالأمان، لا بالتقيّد.", "jT": "انضمّوا إلينا", "jP": "لا توجد وظائف شاغرة حاليًا. إذا كانت خبرتكم في المجال المالي أو القانوني أو التقني بين الشرق الأوسط وأوروبا، يسعدنا استلام سيرتكم الذاتية على [بريدك الإلكتروني].", "coT": "طلب بدء علاقة مهنية", "coP": "حرصًا على منح كل استراتيجية أقصى درجات العناية، أعمل مع عدد محدود من التكليفات، وأقبل فقط تلك التي تتيح فيها خبرتي في الربط بين المنطقة والاتحاد الأوروبي أثرًا حقيقيًا ومستدامًا. يُرجى تعبئة هذا الطلب لتقييم إمكانية التعاون.", "foot": "© 2026 سالم كابيتال", "f_name": "الاسم الكامل", "f_email": "البريد الإلكتروني المهني", "f_emailN": "يُفضَّل استخدام البريد الإلكتروني المهني لمزيد من الأمان.", "f_res": "بلد الإقامة الضريبية الحالي", "f_choose": "يُرجى الاختيار", "o_ae": "الإمارات العربية المتحدة", "o_qa": "قطر", "o_sa": "المملكة العربية السعودية", "o_es": "إسبانيا", "o_ot": "بلد آخر", "f_nat": "الجنسية", "f_ch": "وسيلة التواصل المفضّلة", "o_mail": "البريد الإلكتروني", "f_vol": "حجم الأصول الرقمية المراد إدارتها", "v1": "من 500 ألف إلى مليون دولار", "v2": "من مليون إلى 5 ملايين دولار", "v3": "من 5 إلى 20 مليون دولار", "v4": "أكثر من 20 مليون دولار", "f_oth": "أصول مهمة أخرى (اختياري)", "x1": "عقارات في منطقة الشرق الأوسط وشمال أفريقيا", "x2": "عقارات في الاتحاد الأوروبي", "x3": "محافظ استثمارية تقليدية (أسهم وسندات)", "x4": "شركات أو شركات قابضة قائمة", "f_goal": "الهدف الرئيسي من طلبكم", "g1": "الانتقال: نقل رأس المال الرقمي من الشرق الأوسط إلى إسبانيا", "g2": "التنويع: تحويل الأصول الرقمية إلى عقارات أو استثمارات في الشركات", "g3": "الحماية: تحسين ضريبي وامتثال تنظيمي", "g4": "الإدارة: تحسين العائد وحفظ الأصول الرقمية", "f_urg": "الإطار الزمني للتنفيذ", "u1": "فوري (خلال أقل من 30 يومًا)", "u2": "تخطيط ربع سنوي", "u3": "استراتيجية طويلة الأجل", "f_msg": "لتحقيق أقصى استفادة من جلستنا الأولى، هل هناك تحدٍّ معيّن أو قيد قانوني أو ضريبي ينبغي مراعاته؟", "f_priv": "اطّلعتُ على سياسة الخصوصية وأوافق عليها. [رابط سياسة الخصوصية]", "f_send": "إرسال الطلب", "f_okT": "تمّ استلام طلبكم بنجاح", "f_okP": "نظرًا للطابع السرّي لعملي ومحدودية التكليفات التي أتولّاها، سأدرس حالتكم شخصيًا. وإذا وُجد توافق بين أهدافكم ومنهجيتي، ستصلكم دعوة إلى جلسة تشخيص خاصة خلال 48 إلى 72 ساعة."});
+var VIEWS = {
+  inicio: [".logo-intro", "#inicio"],
+  aporte: ["#aporte"], "sobre-mi": ["#sobre-mi"], experiencia: ["#experiencia"],
+  servicios: ["#servicios"], principios: ["#principios"], contacto: ["#contacto"],
+  modelos: ["#modelos"], aliados: ["#aliados"], faq: ["#faq"], empleo: ["#empleo"]
+};
+function showView(){
+  var id = (location.hash || "#inicio").slice(1);
+  if (!VIEWS[id]) id = "inicio";
+  Object.keys(VIEWS).forEach(function(k){
+    VIEWS[k].forEach(function(sel){
+      var el = document.querySelector(sel);
+      if (!el) return;
+      el.hidden = (k !== id);
+      el.classList.toggle("view-on", k === id && k !== "inicio");
+    });
+  });
+  document.querySelectorAll(".top nav a, .foot-nav a").forEach(function(a){
+    if (a.getAttribute("href") === "#" + id) a.setAttribute("aria-current", "page");
+    else a.removeAttribute("aria-current");
+  });
+  window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", function(){ closeMenu(); showView(); });
+function closeMenu(){
+  document.getElementById("mainNav").classList.remove("open");
+  document.getElementById("menuBtn").setAttribute("aria-expanded","false");
+}
+document.getElementById("menuBtn").addEventListener("click", function(){
+  var nav = document.getElementById("mainNav");
+  var open = nav.classList.toggle("open");
+  this.setAttribute("aria-expanded", open ? "true" : "false");
+});
+document.getElementById("reqForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  if (!this.checkValidity()) { this.classList.add("tried"); this.reportValidity(); return; }
+  // Aquí se conectará el envío real (correo, CRM o formulario externo).
+  this.hidden = true;
+  var ok = document.getElementById("reqOk");
+  ok.hidden = false; ok.focus();
+});
+document.querySelectorAll("#mainNav > a").forEach(function(a){ a.addEventListener("click", closeMenu); });
+var curLang = "es";
+function paintMode(){
+  var dark = document.documentElement.getAttribute("data-mode") === "dark";
+  var d = T[curLang] || T.es;
+  document.getElementById("modeTxt").textContent = dark ? d.modeL : d.modeD;
+  document.getElementById("mode").setAttribute("aria-pressed", dark ? "true" : "false");
+}
+function setMode(m){
+  if (m === "dark") document.documentElement.setAttribute("data-mode","dark");
+  else document.documentElement.removeAttribute("data-mode");
+  try { localStorage.setItem("mode", m); } catch (e) {}
+  paintMode();
+}
+function setLang(l){
+  var d = T[l] || T.es;
+  document.documentElement.lang = l;
+  document.documentElement.dir = l === "ar" ? "rtl" : "ltr";
+  document.querySelectorAll("[data-i18n]").forEach(function(el){
+    var k = el.getAttribute("data-i18n");
+    if (d[k] !== undefined) el.textContent = d[k];
+  });
+  document.querySelectorAll(".lang button").forEach(function(b){
+    b.setAttribute("aria-pressed", b.getAttribute("data-lang") === l ? "true" : "false");
+  });
+  document.title = d.brand;
+  curLang = l; paintMode();
+  try { localStorage.setItem("lang", l); } catch (e) {}
+}
+document.querySelectorAll(".lang button").forEach(function(b){
+  b.addEventListener("click", function(){ setLang(b.getAttribute("data-lang")); });
+});
+var start = "es";
+try { start = localStorage.getItem("lang") || "es"; } catch (e) {}
+if (!T[start]) start = "es";
+try { if (localStorage.getItem("mode") === "dark") document.documentElement.setAttribute("data-mode","dark"); } catch (e) {}
+setLang(start);
+showView();
+document.getElementById("mode").addEventListener("click", function(){
+  setMode(document.documentElement.getAttribute("data-mode") === "dark" ? "light" : "dark");
+});
+</script>
+</body>
+</html>
