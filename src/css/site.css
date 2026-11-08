@@ -888,9 +888,13 @@ ol {
   padding-top: var(--space-3);
 }
 
-.prose {
-  max-width: calc(var(--measure) + 2 * var(--gutter));
-  margin-inline: 0;
+/* Texto largo: alineado con la cabecera y con una medida de lectura cómoda */
+.prose:not(.wrap) {
+  max-width: var(--measure);
+}
+
+.wrap.prose > * {
+  max-width: var(--measure);
 }
 
 .statement {
