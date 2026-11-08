@@ -1,0 +1,42 @@
+{
+  "name": "salim-capital-web",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Web de Salim Capital: sitio estático multipágina en ES, EN y AR",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:preview": "node scripts/build.mjs --preview",
+    "serve": "node scripts/serve.mjs",
+    "map": "node scripts/make-map.mjs",
+    "lint": "npm run lint:js && npm run lint:css && npm run format:check",
+    "lint:js": "eslint src/js scripts tests",
+    "lint:css": "stylelint \"src/css/**/*.css\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "validate": "html-validate \"dist/**/*.html\"",
+    "links": "node scripts/check-links.mjs",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "test:ui": "node tests/ui.mjs",
+    "test": "npm run check:i18n && npm run build && npm run validate && npm run links && npm run test:ui"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@eslint/js": "9.39.1",
+    "@fontsource-variable/fraunces": "5.2.8",
+    "@fontsource/ibm-plex-sans-arabic": "5.2.7",
+    "@fontsource/instrument-sans": "5.2.7",
+    "d3-geo": "3.1.1",
+    "eslint": "9.39.1",
+    "globals": "16.5.0",
+    "html-validate": "10.3.0",
+    "prettier": "3.6.2",
+    "stylelint": "16.25.0",
+    "stylelint-config-standard": "39.0.1",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  }
+}

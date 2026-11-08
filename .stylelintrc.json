@@ -1,0 +1,22 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "selector-class-pattern": null,
+    "no-descending-specificity": null,
+    "font-family-name-quotes": null,
+    "declaration-no-important": null,
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": ["text-size-adjust"]
+      }
+    ],
+    "declaration-block-no-redundant-longhand-properties": null,
+    "value-keyword-case": [
+      "lower",
+      {
+        "ignoreProperties": ["/^--f-/", "font-family"]
+      }
+    ]
+  }
+}
