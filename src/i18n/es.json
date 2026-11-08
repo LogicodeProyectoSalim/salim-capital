@@ -1,0 +1,658 @@
+{
+  "meta": {
+    "lang": "es",
+    "dir": "ltr",
+    "name": "Español",
+    "siteName": "Salim Capital",
+    "tagline": "El puente entre dos mundos"
+  },
+  "routes": {
+    "home": "",
+    "about": "sobre-mi",
+    "philosophy": "filosofia",
+    "experience": "experiencia",
+    "services": "servicios",
+    "models": "modelos",
+    "partners": "aliados",
+    "faq": "faq",
+    "contact": "contacto",
+    "careers": "empleo",
+    "legal": "aviso-legal",
+    "privacy": "privacidad",
+    "cookies": "cookies"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "philosophy": "Filosofía",
+    "experience": "Experiencia",
+    "services": "Servicios",
+    "models": "Modelos",
+    "partners": "Aliados",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "careers": "Ofertas de trabajo",
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "homeLink": "Salim Capital, ir a inicio",
+    "mainNav": "Navegación principal",
+    "footerNav": "Más secciones",
+    "legalNav": "Información legal",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "menu": "Menú",
+    "langLabel": "Idioma",
+    "langCurrent": "Idioma actual: Español. Cambiar idioma",
+    "themeLegend": "Tema",
+    "themeAuto": "Automático",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro",
+    "themeAutoNowLight": "Automático, ahora claro (según su sistema)",
+    "themeAutoNowDark": "Automático, ahora oscuro (según su sistema)",
+    "cta": "Solicitar evaluación",
+    "ctaLong": "Solicitar una evaluación",
+    "nextLabel": "Siguiente",
+    "endTitle": "¿Hablamos de su patrimonio?",
+    "endText": "Complete la solicitud y analizaré personalmente la viabilidad de su caso.",
+    "includedIn": "Incluido en:",
+    "recommended": "Más completo",
+    "copyright": "© {year} Salim Capital. Todos los derechos reservados.",
+    "noscript": "Esta página funciona sin JavaScript, pero el envío del formulario lo necesita. Si lo prefiere, escriba a {email}.",
+    "mapCaption": "De Oriente Medio a la Unión Europea",
+    "mapWest": "España",
+    "mapEast": "Golfo"
+  },
+  "pages": {
+    "home": {
+      "title": "Salim Capital | Estrategia financiera global: de Oriente Medio a la Unión Europea",
+      "description": "Said Salim, fundador de Salim Capital, asesor financiero especializado en activos digitales y experto en la interconexión de mercados entre la región del Golfo y Europa.",
+      "h1": "Estrategia Financiera Global: De Oriente Medio a la Unión Europea.",
+      "intro1": "Soy Said Salim, fundador de Salim Capital y asesor financiero especializado en activos digitales y experto en la interconexión de mercados entre la región del Golfo y Europa.",
+      "intro2": "Ayudo a inversores sofisticados a transformar la volatilidad de las criptomonedas en patrimonio sólido y sostenible. Mi especialidad es crear el puente financiero que permite mover capitales desde la dinámica economía de Oriente Medio hacia la seguridad jurídica y las oportunidades de inversión de la Unión Europea.",
+      "giveTitle": "¿Qué aporto a su patrimonio?",
+      "give": [
+        { "t": "Expertise en Criptoactivos:", "p": "Gestión avanzada y seguridad de activos digitales." },
+        {
+          "t": "Visión Transfronteriza:",
+          "p": "Estrategias de relocalización de capital MENA (Middle East & North Africa) → España."
+        },
+        { "t": "Seguridad Legal:", "p": "Optimización fiscal y cumplimiento normativo en ambas regiones." }
+      ],
+      "mission": "Mi misión es simple: proporcionar la claridad, la estructura y la seguridad necesarias para que su capital crezca sin fronteras."
+    },
+    "about": {
+      "title": "Sobre mí | Salim Capital",
+      "description": "El Puente entre Dos Mundos: Visión Global, Ejecución Local. La trayectoria de Said Salim entre Oriente Medio y España.",
+      "h1": "Sobre Mí",
+      "lead": "El Puente entre Dos Mundos: Visión Global, Ejecución Local.",
+      "blocks": [
+        [
+          "Durante la última década, he tenido el privilegio de operar en el epicentro de la transformación financiera global: Oriente Medio. En una región donde la ambición y la innovación se encuentran, me he especializado en el ecosistema de los activos digitales, ayudando a inversores de alto patrimonio y fondos familiares a navegar la volatilidad de las criptomonedas y a capitalizar la revolución de la tecnología Blockchain.",
+          "Mi trayectoria en el Golfo no ha sido solo técnica, sino estratégica. He aprendido que, en el mundo de las finanzas de alto nivel, la confianza es la moneda más valiosa y la discreción es el pilar fundamental."
+        ],
+        [
+          "Hoy, traslado mi centro de operaciones a España, con una visión clara: servir como el enlace estratégico entre el dinamismo financiero de la región MENA y la solidez institucional de la Unión Europea.",
+          "España no es solo un destino de calidad de vida, es la puerta de entrada ideal para el capital extranjero que busca seguridad jurídica, diversificación en activos reales y acceso al mercado común europeo. Sin embargo, el tránsito de capitales digitales entre estas dos regiones presenta desafíos regulatorios y fiscales complejos que requieren un conocimiento profundo de ambas jurisdicciones."
+        ],
+        [
+          "Mi propuesta es simple pero poderosa: eliminar la fricción. Me encargo de que la transición de su patrimonio sea fluida, legal y optimizada. Ya sea que busque diversificar su cartera de criptoactivos en el sector inmobiliario español, optimizar su carga fiscal al trasladar su residencia o estructurar inversiones transfronterizas, mi enfoque combina la agilidad del mundo Web3 con el rigor de la asesoría financiera tradicional.",
+          "No me limito a gestionar activos; diseño el vehículo financiero que permite a mis clientes operar con libertad en dos de las regiones más influyentes del planeta."
+        ],
+        [
+          "Le invito a descubrir cómo podemos alinear sus objetivos patrimoniales con las oportunidades que ofrece este puente financiero. El futuro de la riqueza es global, digital y diversificado. Construyamos ese futuro juntos."
+        ]
+      ]
+    },
+    "philosophy": {
+      "title": "Filosofía de inversión | Salim Capital",
+      "description": "Filosofía de Inversión: El Valor de la Confianza en la Era Digital. Tres principios inamovibles: discreción absoluta, integridad técnica y alineación de intereses.",
+      "h1": "Filosofía de Inversión: El Valor de la Confianza en la Era Digital.",
+      "intro": [
+        "En la intersección entre el dinamismo de Oriente Medio y la solidez de la Unión Europea, hemos construido nuestra práctica sobre un pilar único: la confianza.",
+        "Entendemos que gestionar el patrimonio de alguien es, en esencia, gestionar su tiempo, su esfuerzo y el futuro de su familia. Por ello, nuestra filosofía de inversión se rige por tres principios inamovibles:"
+      ],
+      "principles": [
+        { "t": "Discreción Absoluta:", "p": "El silencio es la máxima seguridad." },
+        {
+          "t": "Integridad Técnica:",
+          "p": "No recomendamos nada que no hayamos auditado y comprendido en su totalidad."
+        },
+        { "t": "Alineación de Intereses:", "p": "Solo prosperamos cuando nuestros clientes prosperan." }
+      ],
+      "closing": "No nos vemos como proveedores de servicios, sino como socios estratégicos. Nuestro éxito no se mide en porcentajes de rentabilidad, sino en la seguridad con la que nuestros clientes pueden mirar hacia el futuro."
+    },
+    "experience": {
+      "title": "Experiencia y trayectoria | Salim Capital",
+      "description": "Estrategias financieras para una clientela diversa y sofisticada: family offices del Golfo, pioneros del ecosistema digital, alta dirección y capital privado.",
+      "h1": "Experiencia y Trayectoria",
+      "intro": "A lo largo de mi trayectoria, he tenido el privilegio de diseñar estrategias financieras para una clientela diversa y sofisticada. Mi experiencia se ha centrado en resolver desafíos complejos de movilidad de capital y optimización de activos para perfiles de alto impacto.",
+      "profiles": [
+        {
+          "t": "Patrimonio Familiar y Office Management",
+          "s": "(Sectores Tradicionales)",
+          "p": "He asesorado a **miembros de familias prominentes y Family Offices en la región del Golfo**, enfocándome en la transición de la riqueza generacional hacia activos europeos. Mi trabajo consistió en diversificar carteras concentradas en el sector energético e inmobiliario regional, movilizando capital hacia estructuras sólidas en la Unión Europea para asegurar la preservación del legado familiar."
+        },
+        {
+          "t": "Pioneros y Líderes del Ecosistema Digital",
+          "s": "(Sectores Tech/Cripto)",
+          "p": "He trabajado con **fundadores de protocolos Blockchain y 'early adopters' de activos digitales** con patrimonios significativos. Mi intervención se centró en el proceso de 'aterrizaje' de capitales digitales: transformando la volatilidad de las ganancias en criptoactivos en carteras diversificadas de activos reales en España, siempre bajo un marco de cumplimiento normativo estricto para evitar riesgos legales."
+        },
+        {
+          "t": "Alta Dirección y Ejecutivos Globales",
+          "s": "(Sectores Corporativos/Soberanos)",
+          "p": "He brindado asesoría a **ejecutivos de alto nivel y directivos de fondos soberanos** que operan en la intersección de Oriente Medio y Occidente. El enfoque principal fue la planificación financiera transfronteriza, la optimización de la carga fiscal por residencia y la creación de vehículos de inversión que permitieran una movilidad fluida entre sus centros de operaciones en el Golfo y su residencia en la UE."
+        },
+        {
+          "t": "Grupos de Inversión Boutique y Capital Privado",
+          "s": "(Sectores Financieros)",
+          "p": "He colaborado con **firmas de inversión privada y grupos de inversores ángeles** interesados en el mercado español. Mi rol fue actuar como el enlace estratégico, identificando oportunidades de inversión *off-market* en el sector inmobiliario y empresarial de España y estructurando la entrada de capitales desde la región MENA de forma eficiente."
+        }
+      ]
+    },
+    "services": {
+      "title": "Cartera de servicios | Salim Capital",
+      "description": "Cartera de Servicios: Soluciones de Patrimonio Global. Gestión avanzada de activos digitales, relocalización y movilidad de capital, y blindaje legal y fiscal.",
+      "h1": "Cartera de Servicios: Soluciones de Patrimonio Global",
+      "groups": [
+        {
+          "t": "Gestión Avanzada de Activos Digitales",
+          "s": "(Expertise en Cripto)",
+          "items": [
+            {
+              "t": "Arquitectura de Portafolio Cripto:",
+              "p": "Diseño de carteras diversificadas basadas en el perfil de riesgo del cliente. No es trading, es gestión de activos a largo plazo (Hold & Growth).",
+              "models": ["management"]
+            },
+            {
+              "t": "Ingeniería de Ingresos Pasivos (Yield Strategy):",
+              "p": "Implementación de estrategias de *Staking* y *DeFi* institucional para generar flujos de caja constantes sobre los activos digitales.",
+              "models": ["management"]
+            },
+            {
+              "t": "Protocolos de Custodia y Seguridad:",
+              "p": "Implementación de sistemas de almacenamiento en frío (*Cold Storage*) y firmas múltiples (*Multi-sig*) para eliminar el riesgo de hackeos o pérdida de claves.",
+              "models": ["consulting", "management"]
+            }
+          ]
+        },
+        {
+          "t": "Relocalización y Movilidad de Capital",
+          "s": "(Visión Transfronteriza)",
+          "items": [
+            {
+              "t": "Estrategias de Salida y Entrada de Capital:",
+              "p": "Planificación técnica para convertir activos digitales en capital líquido o activos físicos en España, optimizando los tiempos y los costos de transferencia.",
+              "models": ["bridge"]
+            },
+            {
+              "t": "Asesoría en Inversiones Inmobiliarias con Cripto:",
+              "p": "Facilitación de la adquisición de activos inmobiliarios en España utilizando el patrimonio digital como base, conectando al inversor con los partners adecuados.",
+              "models": ["bridge"]
+            },
+            {
+              "t": "Planificación de Patrimonio Transnacional:",
+              "p": "Diseño de una estructura donde el cliente mantiene la agilidad de los mercados de Oriente Medio pero goza de la seguridad de la Unión Europea.",
+              "models": ["bridge"]
+            }
+          ]
+        },
+        {
+          "t": "Blindaje Legal y Fiscal",
+          "s": "(Seguridad Legal)",
+          "items": [
+            {
+              "t": "Optimización Fiscal España-MENA:",
+              "p": "Análisis y planificación para evitar la doble imposición y optimizar la carga tributaria al trasladar la residencia o el capital a España.",
+              "models": ["consulting", "bridge"]
+            },
+            {
+              "t": "Compliance y Cumplimiento Normativo:",
+              "p": "Asesoría exhaustiva sobre el origen de fondos y cumplimiento de las normativas contra el blanqueo de capitales (AML) y KYC, asegurando que el capital entre a España sin alertas legales.",
+              "models": ["consulting", "bridge"]
+            },
+            {
+              "t": "Estructuración de Vehículos de Inversión:",
+              "p": "Creación de estructuras legales (sociedades, holdings o fundaciones) que permitan proteger el patrimonio y facilitar la sucesión hereditaria en el marco legal europeo.",
+              "models": ["bridge"]
+            }
+          ]
+        }
+      ]
+    },
+    "models": {
+      "title": "Modelos de colaboración y cómo contratar | Salim Capital",
+      "description": "Modelos de Colaboración: Consultoría Estratégica, Gestión de Patrimonio y Solución “Puente Integral”. Niveles de intervención y cómo contratar.",
+      "h1": "Modelos de Colaboración",
+      "lead": "Niveles de Intervención → Cómo contratar.",
+      "labels": { "focus": "Enfoque:", "ideal": "Ideal para:", "includes": "Qué incluye:", "result": "Resultado:" },
+      "request": "Solicitar este modelo",
+      "list": [
+        {
+          "id": "consulting",
+          "letter": "A)",
+          "t": "Consultoría Estratégica",
+          "focus": "Resolución de problemas específicos y claridad normativa.",
+          "ideal": "Inversores que necesitan resolver una duda legal, fiscal o técnica puntual.",
+          "includes": [
+            { "t": "", "p": "Sesión de diagnóstico privado." },
+            {
+              "t": "",
+              "p": "Hoja de ruta personalizada para un problema concreto (ej. Declaración de activos, seguridad de wallets o análisis de un token)."
+            },
+            { "t": "", "p": "Soporte vía email para el seguimiento de la solución implementada." }
+          ],
+          "result": "Claridad inmediata y eliminación de riesgos legales o técnicos."
+        },
+        {
+          "id": "management",
+          "letter": "B)",
+          "t": "Gestión de Patrimonio",
+          "focus": "Optimización continua, crecimiento sostenible y seguridad.",
+          "ideal": "Quienes poseen una cartera digital significativa y no tienen el tiempo o la especialización para gestionarla día a día.",
+          "includes": [
+            { "t": "Gestión Activa:", "p": "Rebalanceo mensual de la cartera según el mercado." },
+            {
+              "t": "Optimización de Yield:",
+              "p": "Búsqueda y despliegue de las mejores estrategias de rentabilidad pasiva."
+            },
+            { "t": "Reportes de Desempeño:", "p": "Informe mensual de crecimiento y análisis de riesgos." },
+            { "t": "Soporte Prioritario:", "p": "Acceso directo para consultas rápidas sobre movimientos de mercado." }
+          ],
+          "result": "Crecimiento optimizado del capital con el mínimo estrés para el cliente."
+        },
+        {
+          "id": "bridge",
+          "letter": "C)",
+          "t": "Solución “Puente Integral”",
+          "focus": "Transformación patrimonial total y relocalización estratégica.",
+          "ideal": "Grandes capitales de Oriente Medio que buscan establecerse, invertir o diversificar en la Unión Europea (España).",
+          "includes": [
+            { "t": "Todo lo incluido en la Gestión de Patrimonio.", "p": "" },
+            { "t": "Ingeniería de Relocalización:", "p": "Planificación completa del flujo de fondos MENA → España." },
+            {
+              "t": "Blindaje Fiscal y Legal:",
+              "p": "Estructuración de la residencia y optimización de impuestos en ambas jurisdicciones."
+            },
+            {
+              "t": "Concierge de Inversiones Reales:",
+              "p": "Búsqueda, filtrado y gestión de activos inmobiliarios o empresariales en España."
+            },
+            { "t": "Gestión de Golden Visa:", "p": "Coordinación total para la obtención de residencia por inversión." }
+          ],
+          "result": "Una transición patrimonial invisible, legalmente blindada y financieramente optimizada."
+        }
+      ],
+      "howTitle": "Cómo contratar",
+      "how": [
+        { "t": "Solicitud", "p": "Complete la solicitud de apertura de relación profesional." },
+        { "t": "Evaluación en 48-72 horas", "p": "Analizo personalmente la viabilidad de su caso." },
+        { "t": "Sesión de diagnóstico privada", "p": "Si existe una alineación estratégica, recibirá una invitación." },
+        {
+          "t": "Acuerdo de confidencialidad (NDA)",
+          "p": "Firmamos un acuerdo estrictamente vinculante antes de compartir información sensible."
+        },
+        { "t": "Propuesta", "p": "Recibe una propuesta con el modelo de colaboración y su alcance." },
+        { "t": "Inicio", "p": "Comenzamos la ejecución de su mandato." }
+      ]
+    },
+    "partners": {
+      "title": "Red de aliados | Salim Capital",
+      "description": "Partners: red de aliados estratégicos en blindaje legal y fiscal, inversiones en activos reales e infraestructura digital y seguridad.",
+      "h1": "Partners: Red de aliados",
+      "intro": "Ninguna estrategia patrimonial es exitosa en aislamiento. Para garantizar la ejecución impecable de cada mandato, he consolidado una red de aliados estratégicos en las jurisdicciones donde opero, asegurando que cada pieza del rompecabezas financiero encaje con precisión.",
+      "groups": [
+        {
+          "t": "Blindaje Legal y Fiscal",
+          "s": "(Legal & Tax Hub)",
+          "items": [
+            {
+              "t": "Despachos de Abogados Especializados:",
+              "p": "Alianzas con firmas expertas en derecho mercantil, fiscalidad internacional y derecho sucesorio en España y la UE."
+            },
+            {
+              "t": "Consultoras Fiscales (Tax Advisors):",
+              "p": "Expertos en la optimización de impuestos para expatriados y residentes no habituales (Ley Beckham, etc.)."
+            },
+            {
+              "t": "Especialistas en Compliance:",
+              "p": "Firmas dedicadas a la debida diligencia (Due Diligence) y certificación de origen de fondos (AML/KYC)."
+            }
+          ]
+        },
+        {
+          "t": "Inversiones en Activos Reales",
+          "s": "(Real Estate & Assets)",
+          "items": [
+            {
+              "t": "Boutiques Inmobiliarias de Lujo:",
+              "p": "Acceso a propiedades *Off-Market* (que no están en portales públicos) en Madrid, Barcelona, Marbella y la Costa del Sol."
+            },
+            {
+              "t": "Gestoras de Patrimonio Inmobiliario:",
+              "p": "Aliados que se encargan de la administración, alquiler y mantenimiento de los activos adquiridos."
+            },
+            {
+              "t": "Asesores de Inversión Empresarial:",
+              "p": "Conexiones con startups y empresas consolidadas en España para aquellos clientes que buscan invertir en el tejido productivo europeo."
+            }
+          ]
+        },
+        {
+          "t": "Infraestructura Digital y Seguridad",
+          "s": "(Digital Infrastructure)",
+          "items": [
+            {
+              "t": "Custodios Institucionales:",
+              "p": "Relaciones con proveedores de custodia de grado bancario para grandes volúmenes de activos."
+            },
+            {
+              "t": "Expertos en Ciberseguridad:",
+              "p": "Consultores especializados en la protección de activos digitales y auditorías de seguridad para carteras privadas."
+            },
+            {
+              "t": "Exchanges Regulados:",
+              "p": "Canales preferentes en plataformas de intercambio que cumplen estrictamente con la normativa europea y del Golfo"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes | Salim Capital",
+      "description": "Seguridad y custodia, fiscalidad y legalidad, confidencialidad y ética: respuestas a las dudas más habituales de nuestros clientes.",
+      "h1": "Preguntas frecuentes (FAQ)",
+      "lead": "Resolución de dudas → Eliminación de miedos.",
+      "permalink": "Enlace a esta pregunta",
+      "blocks": [
+        {
+          "t": "Bloque 1: Seguridad y Custodia",
+          "qs": [
+            {
+              "id": "claves",
+              "q": "¿Tengo que entregar mis claves privadas o semillas para que gestione mi cartera?",
+              "a": "Absolutamente no. La seguridad de sus activos es prioridad máxima. Implementamos soluciones de **custodia segregada** y esquemas de **firma múltiple (Multi-sig)**. Esto significa que ninguna transacción puede ejecutarse sin su autorización explícita. Usted mantiene el control total de sus activos; nosotros proporcionamos la estrategia y la ejecución técnica."
+            },
+            {
+              "id": "ciberseguridad",
+              "q": "¿Cómo se protegen mis activos contra ataques cibernéticos o fallos del sistema?",
+              "a": "Utilizamos protocolos de grado institucional. Recomendamos y configuramos la migración de activos hacia *Cold Wallets* (almacenamiento fuera de línea) y el uso de hardware de seguridad avanzado. Nuestro enfoque es eliminar el riesgo de custodia en exchanges centralizados, moviendo la riqueza hacia un entorno donde solo el propietario tiene la llave."
+            }
+          ]
+        },
+        {
+          "t": "Bloque 2: Fiscalidad y Legalidad",
+          "qs": [
+            {
+              "id": "legalidad",
+              "q": "¿Es legal trasladar capitales en criptomonedas desde la región del Golfo hacia España?",
+              "a": "Sí, es perfectamente legal siempre que se realice bajo el marco del cumplimiento normativo. El desafío no es la legalidad, sino la **trazabilidad**. Nos especializamos en documentar el origen de los fondos y asegurar que el tránsito de activos cumpla con las normativas AML (Anti-Money Laundering) y KYC (Know Your Customer) tanto de la región MENA como de la Unión Europea."
+            },
+            {
+              "id": "hacienda",
+              "q": "¿Cómo me ayuda a evitar problemas con la Agencia Tributaria española (Hacienda)?",
+              "a": "La clave es la prevención y la planificación. No improvisamos; diseñamos una estrategia fiscal antes de que el capital entre en España. Analizamos el impacto del Impuesto sobre el Patrimonio y el Impuesto sobre la Renta, y coordinamos la presentación de declaraciones (como el modelo 720) para asegurar que su situación sea transparente y optimizada, evitando sorpresas o sanciones."
+            }
+          ]
+        },
+        {
+          "t": "Bloque 3: Confidencialidad y Ética",
+          "qs": [
+            {
+              "id": "confidencialidad",
+              "q": "¿Cómo maneja la confidencialidad de la información de sus clientes?",
+              "a": "La discreción no es un valor añadido, es nuestra base operativa. Todos nuestros mandatos comienzan con la firma de un **Acuerdo de Confidencialidad (NDA)** estrictamente vinculante. Operamos bajo protocolos de comunicación cifrada y una política de 'cero exposición', garantizando que su identidad y el volumen de sus activos permanezcan en el anonimato absoluto."
+            },
+            {
+              "id": "finalizar",
+              "q": "¿Qué sucede si mis objetivos cambian o decido finalizar la relación de gestión?",
+              "a": "La liquidez y la libertad son fundamentales. Nuestros modelos de colaboración están diseñados para ser flexibles. Al mantener usted el control de sus claves y la propiedad de sus activos, la transición o el cese de la gestión es inmediato y sin fricciones. Nuestro objetivo es que usted se sienta seguro, no cautivo."
+            }
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Solicitud de apertura de relación profesional | Salim Capital",
+      "description": "Opero bajo un modelo de selección limitada. Complete la solicitud para evaluar la viabilidad de nuestra colaboración.",
+      "h1": "Formulario de Contacto",
+      "lead": "Solicitud de Apertura de Relación Profesional",
+      "intro": "Para garantizar la exclusividad de mi servicio y la máxima atención al detalle en cada estrategia, opero bajo un modelo de selección limitada. No acepto todos los mandatos; solo aquellos donde mi expertise en la conexión MENA-UE pueda generar un impacto significativo y sostenible en el patrimonio del cliente. Por favor, complete la siguiente solicitud para evaluar la viabilidad de nuestra colaboración.",
+      "asideNextTitle": "Qué pasa después",
+      "asideNext": [
+        "Analizo personalmente la viabilidad de su caso.",
+        "Si existe una alineación estratégica, recibirá una invitación para una sesión de diagnóstico privada en un plazo de 48 a 72 horas.",
+        "Antes de compartir información sensible, firmamos un Acuerdo de Confidencialidad (NDA)."
+      ],
+      "asideNdaTitle": "Confidencialidad",
+      "asideNda": "Todos nuestros mandatos comienzan con la firma de un Acuerdo de Confidencialidad (NDA) estrictamente vinculante.",
+      "asideAltTitle": "Otras vías de contacto",
+      "asideAlt": "Si prefiere no usar el formulario, escriba a:"
+    },
+    "careers": {
+      "title": "Ofertas de trabajo | Salim Capital",
+      "description": "Ofertas de trabajo en Salim Capital.",
+      "h1": "Ofertas de trabajo",
+      "text": "En este momento no hay ofertas de trabajo abiertas. Si su perfil encaja en el ámbito financiero, legal o tecnológico entre Oriente Medio y Europa, puede enviar su candidatura a {email}."
+    },
+    "notFound": {
+      "title": "Página no encontrada | Salim Capital",
+      "h1": "Página no encontrada",
+      "text": "La dirección que ha escrito no existe o ha cambiado.",
+      "back": "Ir a la página de inicio"
+    }
+  },
+  "form": {
+    "legendData": "Sus datos",
+    "legendProfile": "Su perfil patrimonial",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico Corporativo",
+    "emailNote": "Para mayor seguridad y gestión, se prefiere el uso de correos corporativos.",
+    "phone": "Teléfono (opcional)",
+    "phoneNote": "Solo si prefiere WhatsApp Business, Signal o Telegram. Incluya el prefijo internacional.",
+    "residence": "Residencia Fiscal Actual",
+    "choose": "Seleccione una opción",
+    "residenceOptions": ["EAU", "Qatar", "Arabia Saudita", "España", "Otros"],
+    "nationality": "Nacionalidad",
+    "channel": "Canal de Comunicación Preferente",
+    "channelOptions": ["WhatsApp Business", "Signal", "Telegram", "Email"],
+    "model": "Modelo de interés",
+    "modelUnsure": "Aún no lo sé",
+    "volume": "Volumen de Activos Digitales a Optimizar/Gestionar",
+    "volumeOptions": ["$500K — $1M", "$1M — $5M", "$5M — $20M", "Superior a $20M"],
+    "assets": "Otros Activos Significativos (Opcional)",
+    "assetOptions": [
+      "Inmuebles en la región MENA",
+      "Inmuebles en la Unión Europea",
+      "Carteras de Inversión Tradicional (Acciones/Bonos)",
+      "Empresas/Holdings activos"
+    ],
+    "goal": "¿Cuál es el objetivo principal de su solicitud?",
+    "goalOptions": [
+      "**Relocalización:** Trasladar capital digital de Oriente Medio a España",
+      "**Diversificación:** Convertir activos digitales en activos reales (Inmobiliario/Empresarial)",
+      "**Blindaje:** Optimización fiscal y cumplimiento normativo (AML/Compliance)",
+      "**Gestión:** Optimización de rendimientos y custodia de activos digitales"
+    ],
+    "urgency": "Urgencia de Ejecución",
+    "urgencyOptions": ["Inmediata (Menos de 30 días)", "Planificación trimestral", "Estrategia a largo plazo"],
+    "message": "Para optimizar nuestra primera sesión, ¿hay algún desafío específico o restricción legal/fiscal que debamos considerar en su caso?",
+    "required": "obligatorio",
+    "honeypot": "No rellene este campo",
+    "privacyInfoTitle": "Información básica sobre protección de datos",
+    "privacyInfo": [
+      { "t": "Responsable:", "p": "Said Salim (Salim Capital)." },
+      { "t": "Finalidad:", "p": "atender su solicitud y evaluar una posible relación profesional." },
+      { "t": "Legitimación:", "p": "su consentimiento y la aplicación de medidas precontractuales a petición suya." },
+      {
+        "t": "Destinatarios:",
+        "p": "no se cederán datos a terceros, salvo obligación legal o proveedores que tratan datos por cuenta del responsable."
+      },
+      {
+        "t": "Derechos:",
+        "p": "acceso, rectificación, supresión, oposición, limitación y portabilidad, escribiendo a {email}."
+      }
+    ],
+    "privacyMore": "Más información en la {link}.",
+    "privacyLinkText": "Política de privacidad",
+    "consent": "He leído la información sobre protección de datos y acepto la {link}.",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando…",
+    "errorsTitle": "Revise los siguientes campos:",
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "email": "Escriba un correo electrónico válido, por ejemplo nombre@empresa.com.",
+      "phone": "Escriba un teléfono válido con prefijo internacional, por ejemplo +971 50 123 4567.",
+      "choice": "Seleccione una opción.",
+      "consent": "Debe aceptar la política de privacidad para enviar la solicitud.",
+      "rate": "Ha enviado varias solicitudes en poco tiempo. Espere unos minutos antes de volver a intentarlo.",
+      "network": "No se ha podido enviar la solicitud. Compruebe su conexión e inténtelo de nuevo, o escriba a {email}.",
+      "inactive": "El envío en línea todavía no está activo. Mientras tanto, escriba a {email} y le responderé personalmente."
+    },
+    "successTitle": "Solicitud Recibida con Éxito.",
+    "success": "Su perfil ha sido ingresado en nuestro sistema de evaluación. Debido a la naturaleza confidencial de mi trabajo y la limitación de mis mandatos activos, analizaré personalmente la viabilidad de su caso. Si existe una alineación estratégica entre sus objetivos y mi metodología, recibirá una invitación para una sesión de diagnóstico privada en un plazo de 48 a 72 horas."
+  },
+  "legal": {
+    "draftNotice": "Borrador pendiente de revisión por el titular y su asesor legal.",
+    "pending": "Pendiente de completar",
+    "updated": "Última actualización:",
+    "legalNotice": {
+      "title": "Aviso legal | Salim Capital",
+      "description": "Aviso legal del sitio web de Salim Capital (LSSI-CE).",
+      "h1": "Aviso legal",
+      "sections": [
+        { "h": "Datos del titular", "fields": ["owner", "nif", "address", "email", "registry", "authorization"] },
+        {
+          "h": "Objeto",
+          "p": [
+            "Este sitio web informa sobre los servicios de asesoría de Salim Capital. Su contenido tiene carácter informativo y no constituye una oferta, una recomendación personalizada de inversión ni asesoramiento fiscal o jurídico."
+          ]
+        },
+        {
+          "h": "Condiciones de uso",
+          "p": [
+            "El acceso al sitio es libre y gratuito. La persona usuaria se compromete a hacer un uso adecuado de los contenidos y a no emplearlos para actividades ilícitas o contrarias a la buena fe."
+          ]
+        },
+        {
+          "h": "Propiedad intelectual e industrial",
+          "p": [
+            "Los textos, el diseño, los logotipos y el resto de elementos del sitio son propiedad del titular o se usan con autorización. Queda prohibida su reproducción sin permiso expreso."
+          ]
+        },
+        {
+          "h": "Responsabilidad",
+          "p": [
+            "El titular no se hace responsable de las decisiones tomadas a partir de la información publicada en el sitio ni de los daños derivados de interrupciones técnicas ajenas a su control."
+          ]
+        },
+        {
+          "h": "Legislación aplicable",
+          "p": [
+            "Este aviso legal se rige por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales que correspondan conforme a la ley."
+          ]
+        }
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Política de privacidad | Salim Capital",
+      "description": "Cómo trata Salim Capital los datos personales (RGPD y LOPDGDD).",
+      "h1": "Política de privacidad",
+      "sections": [
+        { "h": "Responsable del tratamiento", "fields": ["owner", "nif", "address", "email"] },
+        {
+          "h": "Qué datos tratamos",
+          "p": [
+            "Los datos que usted facilita en el formulario de solicitud: nombre, correo electrónico, teléfono (opcional), residencia fiscal, nacionalidad, canal de contacto preferido, modelo de interés, volumen aproximado de activos, otros activos, objetivo, urgencia y el mensaje que escriba."
+          ]
+        },
+        {
+          "h": "Finalidad",
+          "p": [
+            "Atender su solicitud, evaluar la viabilidad de una relación profesional y, en su caso, contactarle por el canal que haya elegido."
+          ]
+        },
+        {
+          "h": "Base legal",
+          "p": [
+            "Su consentimiento (art. 6.1.a del RGPD) y la aplicación de medidas precontractuales a petición suya (art. 6.1.b del RGPD)."
+          ]
+        },
+        {
+          "h": "Conservación",
+          "p": [
+            "Los datos se conservarán mientras sean necesarios para evaluar su solicitud y, si no se inicia una relación profesional, se suprimirán en un plazo máximo de doce meses, salvo obligación legal de conservarlos."
+          ]
+        },
+        {
+          "h": "Destinatarios",
+          "p": [
+            "No se cederán datos a terceros salvo obligación legal. El proveedor técnico que reciba el formulario tratará los datos por cuenta del responsable, con el contrato de encargo correspondiente."
+          ],
+          "fields": ["processor"]
+        },
+        {
+          "h": "Transferencias internacionales",
+          "p": [
+            "Si el proveedor técnico trata datos fuera del Espacio Económico Europeo, se aplicarán las garantías previstas en el RGPD."
+          ],
+          "fields": ["transfers"]
+        },
+        {
+          "h": "Sus derechos",
+          "p": [
+            "Puede ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, así como retirar su consentimiento, escribiendo a la dirección de contacto indicada. Si considera que sus derechos no se han respetado, puede presentar una reclamación ante la Agencia Española de Protección de Datos (aepd.es)."
+          ]
+        },
+        {
+          "h": "Seguridad",
+          "p": [
+            "El sitio se sirve solo mediante HTTPS y se aplican medidas técnicas y organizativas para proteger sus datos."
+          ]
+        }
+      ]
+    },
+    "cookiesPolicy": {
+      "title": "Política de cookies | Salim Capital",
+      "description": "Este sitio no usa cookies ni rastreadores.",
+      "h1": "Política de cookies",
+      "sections": [
+        {
+          "h": "Este sitio no usa cookies",
+          "p": [
+            "Salim Capital no instala cookies propias ni de terceros, no usa herramientas de analítica y no muestra publicidad."
+          ]
+        },
+        {
+          "h": "Preferencias guardadas en su navegador",
+          "p": [
+            "Si usted elige un idioma o un tema (claro u oscuro), el navegador guarda esa elección en su almacenamiento local para mantenerla en la siguiente visita. Esta información no se envía a ningún servidor y puede borrarla en cualquier momento desde la configuración de su navegador."
+          ]
+        },
+        {
+          "h": "Fuentes tipográficas",
+          "p": ["Las fuentes tipográficas se sirven desde este mismo sitio, sin conexiones a servicios externos."]
+        },
+        {
+          "h": "Cambios",
+          "p": [
+            "Si en el futuro se incorpora alguna cookie o herramienta de analítica, se actualizará esta política y se pedirá su consentimiento cuando sea necesario."
+          ]
+        }
+      ]
+    },
+    "fields": {
+      "owner": "Titular",
+      "nif": "NIF",
+      "address": "Domicilio",
+      "email": "Correo electrónico",
+      "registry": "Datos registrales",
+      "authorization": "Autorizaciones administrativas",
+      "processor": "Proveedor del formulario",
+      "transfers": "Garantías aplicadas"
+    }
+  }
+}
