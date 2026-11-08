@@ -1,0 +1,31 @@
+{
+  "_comment": "Datos del sitio. Los valores null se muestran como «Pendiente de completar» en las páginas legales y el build avisa de ellos.",
+  "siteUrl": "https://saidsalim.com",
+  "domainIsPlaceholder": true,
+  "languages": ["es", "en", "ar"],
+  "defaultLanguage": "en",
+  "email": {
+    "contact": "contacto@saidsalim.com",
+    "careers": "empleo@saidsalim.com",
+    "privacy": "privacidad@saidsalim.com"
+  },
+  "form": {
+    "endpoint": "",
+    "maxPerHour": 3,
+    "minSecondsBeforeSubmit": 4
+  },
+  "legal": {
+    "owner": "Said Salim (Salim Capital)",
+    "nif": null,
+    "address": null,
+    "registry": null,
+    "authorization": null,
+    "processor": null,
+    "transfers": null,
+    "updated": "2026-11-08"
+  },
+  "theme": {
+    "light": "#1F3A2E",
+    "dark": "#13201A"
+  }
+}
