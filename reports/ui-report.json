@@ -1,0 +1,6311 @@
+{
+  "date": "2026-11-08T01:18:56.005Z",
+  "results": [
+    {
+      "area": "responsive",
+      "name": "es 320px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 320px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 320px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 360px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 360px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 375px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 375px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 393px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 393px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 768px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 768px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 820px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 820px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1024px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 1024px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1280px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 1280px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1440px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 1440px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 1920px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 1920px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "es 2560px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "es 2560px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 320px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 320px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 360px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 360px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 375px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 375px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 393px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 393px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 768px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 768px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 820px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 820px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1024px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 1024px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1280px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 1280px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1440px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 1440px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 1920px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 1920px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "en 2560px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "en 2560px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 320px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 320px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 360px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 360px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 375px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 375px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 393px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 393px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 768px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 768px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 820px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 820px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1024px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 1024px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1280px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 1280px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1440px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 1440px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 1920px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 1920px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px home: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px: menú completo en una línea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px: nombre «Salim Capital» visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px: selector de idioma visible sin abrir el menú",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px: cabecera en una fila",
+      "ok": true,
+      "detail": "alto=68"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px about: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px philosophy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px experience: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px services: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px models: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px partners: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px faq: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px contact: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px careers: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px legal: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px privacy: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "responsive",
+      "name": "ar 2560px cookies: sin scroll horizontal",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "js",
+      "name": "ar 2560px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "cta",
+      "name": "es iPhone SE (1.ª gen.) 320×568: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=554px"
+    },
+    {
+      "area": "cta",
+      "name": "es Android 360 360×740: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=523px"
+    },
+    {
+      "area": "cta",
+      "name": "es iPhone SE 375×667: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=524px"
+    },
+    {
+      "area": "cta",
+      "name": "es iPhone 15 393×852: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=490px"
+    },
+    {
+      "area": "cta",
+      "name": "es iPad vertical 768×1024: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=439px"
+    },
+    {
+      "area": "cta",
+      "name": "es iPad horizontal 1024×768: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=601px"
+    },
+    {
+      "area": "cta",
+      "name": "es Portátil 1280 1280×800: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=605px"
+    },
+    {
+      "area": "cta",
+      "name": "es Escritorio 1440 1440×900: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=640px"
+    },
+    {
+      "area": "cta",
+      "name": "es Escritorio 1920 1920×1080: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=645px"
+    },
+    {
+      "area": "cta",
+      "name": "es Ultrapanorámico 2560×1080: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=645px"
+    },
+    {
+      "area": "cta",
+      "name": "es iPhone 15 en horizontal 852×393: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=301px"
+    },
+    {
+      "area": "cta",
+      "name": "en iPhone SE (1.ª gen.) 320×568: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=554px"
+    },
+    {
+      "area": "cta",
+      "name": "en Android 360 360×740: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=523px"
+    },
+    {
+      "area": "cta",
+      "name": "en iPhone SE 375×667: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=524px"
+    },
+    {
+      "area": "cta",
+      "name": "en iPhone 15 393×852: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=495px"
+    },
+    {
+      "area": "cta",
+      "name": "en iPad vertical 768×1024: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=485px"
+    },
+    {
+      "area": "cta",
+      "name": "en iPad horizontal 1024×768: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=601px"
+    },
+    {
+      "area": "cta",
+      "name": "en Portátil 1280 1280×800: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=636px"
+    },
+    {
+      "area": "cta",
+      "name": "en Escritorio 1440 1440×900: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=640px"
+    },
+    {
+      "area": "cta",
+      "name": "en Escritorio 1920 1920×1080: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=645px"
+    },
+    {
+      "area": "cta",
+      "name": "en Ultrapanorámico 2560×1080: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=645px"
+    },
+    {
+      "area": "cta",
+      "name": "en iPhone 15 en horizontal 852×393: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=301px"
+    },
+    {
+      "area": "cta",
+      "name": "ar iPhone SE (1.ª gen.) 320×568: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=512px"
+    },
+    {
+      "area": "cta",
+      "name": "ar Android 360 360×740: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=467px"
+    },
+    {
+      "area": "cta",
+      "name": "ar iPhone SE 375×667: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=434px"
+    },
+    {
+      "area": "cta",
+      "name": "ar iPhone 15 393×852: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=436px"
+    },
+    {
+      "area": "cta",
+      "name": "ar iPad vertical 768×1024: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=451px"
+    },
+    {
+      "area": "cta",
+      "name": "ar iPad horizontal 1024×768: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=569px"
+    },
+    {
+      "area": "cta",
+      "name": "ar Portátil 1280 1280×800: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=568px"
+    },
+    {
+      "area": "cta",
+      "name": "ar Escritorio 1440 1440×900: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=572px"
+    },
+    {
+      "area": "cta",
+      "name": "ar Escritorio 1920 1920×1080: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=577px"
+    },
+    {
+      "area": "cta",
+      "name": "ar Ultrapanorámico 2560×1080: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=577px"
+    },
+    {
+      "area": "cta",
+      "name": "ar iPhone 15 en horizontal 852×393: CTA visible sin scroll",
+      "ok": true,
+      "detail": "borde inferior=272px"
+    },
+    {
+      "area": "tap",
+      "name": "es 390px home: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "es 390px contact: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "es 390px faq: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "es 1280px home: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "es 1280px contact: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "es 1280px faq: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "ar 1280px home: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "ar 1280px contact: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "tap",
+      "name": "ar 1280px faq: objetivos ≥ 44×44 px",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 390px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light es 1280px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 390px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light en 1280px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 390px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "light ar 1280px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 390px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark es 1280px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 390px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark en 1280px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 390px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px about",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px philosophy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px experience",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px services",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px models",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px partners",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px faq",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px contact",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px careers",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px legal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px privacy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "axe",
+      "name": "dark ar 1280px cookies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es home: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es home: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es home: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es home: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es home: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es home: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1224"
+    },
+    {
+      "area": "estructura",
+      "name": "es about: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es about: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es about: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es about: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es about: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es about: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2267"
+    },
+    {
+      "area": "estructura",
+      "name": "es philosophy: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es philosophy: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es philosophy: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es philosophy: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es philosophy: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es philosophy: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1035"
+    },
+    {
+      "area": "estructura",
+      "name": "es experience: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es experience: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es experience: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es experience: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es experience: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es experience: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2282"
+    },
+    {
+      "area": "estructura",
+      "name": "es services: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es services: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es services: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es services: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es services: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es services: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2558"
+    },
+    {
+      "area": "estructura",
+      "name": "es models: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es models: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es models: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es models: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es models: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es models: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2827"
+    },
+    {
+      "area": "estructura",
+      "name": "es partners: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es partners: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es partners: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es partners: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es partners: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es partners: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1895"
+    },
+    {
+      "area": "estructura",
+      "name": "es faq: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es faq: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es faq: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es faq: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es faq: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es faq: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=778"
+    },
+    {
+      "area": "estructura",
+      "name": "es contact: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es contact: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es contact: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es contact: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es contact: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es contact: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=3377"
+    },
+    {
+      "area": "estructura",
+      "name": "es careers: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es careers: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es careers: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es careers: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es careers: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es careers: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=348"
+    },
+    {
+      "area": "estructura",
+      "name": "es legal: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es legal: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es legal: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es legal: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es legal: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es legal: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1541"
+    },
+    {
+      "area": "estructura",
+      "name": "es privacy: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es privacy: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es privacy: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es privacy: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es privacy: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es privacy: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2157"
+    },
+    {
+      "area": "estructura",
+      "name": "es cookies: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "es cookies: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es cookies: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es cookies: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "es cookies: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "es cookies: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=992"
+    },
+    {
+      "area": "estructura",
+      "name": "en home: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en home: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en home: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en home: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en home: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en home: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1182"
+    },
+    {
+      "area": "estructura",
+      "name": "en about: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en about: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en about: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en about: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en about: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en about: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2133"
+    },
+    {
+      "area": "estructura",
+      "name": "en philosophy: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en philosophy: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en philosophy: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en philosophy: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en philosophy: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en philosophy: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=971"
+    },
+    {
+      "area": "estructura",
+      "name": "en experience: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en experience: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en experience: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en experience: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en experience: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en experience: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2075"
+    },
+    {
+      "area": "estructura",
+      "name": "en services: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en services: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en services: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en services: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en services: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en services: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2260"
+    },
+    {
+      "area": "estructura",
+      "name": "en models: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en models: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en models: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en models: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en models: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en models: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2576"
+    },
+    {
+      "area": "estructura",
+      "name": "en partners: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en partners: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en partners: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en partners: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en partners: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en partners: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1713"
+    },
+    {
+      "area": "estructura",
+      "name": "en faq: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en faq: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en faq: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en faq: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en faq: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en faq: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=754"
+    },
+    {
+      "area": "estructura",
+      "name": "en contact: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en contact: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en contact: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en contact: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en contact: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en contact: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=3135"
+    },
+    {
+      "area": "estructura",
+      "name": "en careers: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en careers: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en careers: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en careers: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en careers: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en careers: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=348"
+    },
+    {
+      "area": "estructura",
+      "name": "en legal: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en legal: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en legal: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en legal: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en legal: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en legal: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1349"
+    },
+    {
+      "area": "estructura",
+      "name": "en privacy: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en privacy: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en privacy: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en privacy: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en privacy: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en privacy: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1985"
+    },
+    {
+      "area": "estructura",
+      "name": "en cookies: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "en cookies: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en cookies: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en cookies: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "en cookies: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "en cookies: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=905"
+    },
+    {
+      "area": "estructura",
+      "name": "ar home: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar home: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar home: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar home: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar home: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar home: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=945"
+    },
+    {
+      "area": "estructura",
+      "name": "ar about: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar about: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar about: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar about: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar about: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar about: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1708"
+    },
+    {
+      "area": "estructura",
+      "name": "ar philosophy: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar philosophy: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar philosophy: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar philosophy: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar philosophy: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar philosophy: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=666"
+    },
+    {
+      "area": "estructura",
+      "name": "ar experience: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar experience: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar experience: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar experience: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar experience: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar experience: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1738"
+    },
+    {
+      "area": "estructura",
+      "name": "ar services: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar services: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar services: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar services: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar services: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar services: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1953"
+    },
+    {
+      "area": "estructura",
+      "name": "ar models: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar models: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar models: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar models: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar models: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar models: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2114"
+    },
+    {
+      "area": "estructura",
+      "name": "ar partners: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar partners: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar partners: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar partners: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar partners: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar partners: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1469"
+    },
+    {
+      "area": "estructura",
+      "name": "ar faq: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar faq: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar faq: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar faq: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar faq: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar faq: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=611"
+    },
+    {
+      "area": "estructura",
+      "name": "ar contact: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar contact: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar contact: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar contact: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar contact: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar contact: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=2788"
+    },
+    {
+      "area": "estructura",
+      "name": "ar careers: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar careers: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar careers: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar careers: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar careers: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar careers: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=259"
+    },
+    {
+      "area": "estructura",
+      "name": "ar legal: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar legal: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar legal: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar legal: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar legal: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar legal: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1127"
+    },
+    {
+      "area": "estructura",
+      "name": "ar privacy: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar privacy: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar privacy: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar privacy: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar privacy: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar privacy: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=1749"
+    },
+    {
+      "area": "estructura",
+      "name": "ar cookies: un solo h1",
+      "ok": true,
+      "detail": "h1=1"
+    },
+    {
+      "area": "estructura",
+      "name": "ar cookies: header, nav, main y footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar cookies: enlace «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar cookies: lang y dir en el HTML servido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "estructura",
+      "name": "ar cookies: hreflang ES/EN/AR + x-default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "sin-js",
+      "name": "ar cookies: contenido y menú visibles sin JavaScript",
+      "ok": true,
+      "detail": "texto=764"
+    },
+    {
+      "area": "estructura",
+      "name": "Cada página e idioma tiene un title distinto",
+      "ok": true,
+      "detail": "39/39"
+    },
+    {
+      "area": "tema",
+      "name": "Arranca con el tema del sistema (oscuro)",
+      "ok": true,
+      "detail": "rgb(15, 22, 18)"
+    },
+    {
+      "area": "tema",
+      "name": "Cambia en vivo si cambia el sistema (modo automático)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "tema",
+      "name": "Elección manual «Claro» con el sistema en oscuro",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "tema",
+      "name": "La elección manual no cambia con el sistema",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "tema",
+      "name": "Script de tema en línea en <head> antes del CSS (sin FOUC)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "tema",
+      "name": "Tras recargar se mantiene «Oscuro»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "tema",
+      "name": "theme-color acompaña al tema elegido",
+      "ok": true,
+      "detail": "#13201A,#13201A"
+    },
+    {
+      "area": "tema",
+      "name": "«Automático» borra la preferencia guardada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "tema",
+      "name": "El modo automático anuncia el tema actual",
+      "ok": true,
+      "detail": "Automático, ahora claro (según su sistema)"
+    },
+    {
+      "area": "tema",
+      "name": "El botón de tema está en el footer, no en la cabecera",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "es: Enter abre el menú y el foco entra en él",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "es: el foco queda atrapado en el menú abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "es: Escape cierra el menú y devuelve el foco al botón",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "es: selector de idioma móvil abre con Enter y cierra con Escape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "es: el primer Tab llega a «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "ar: Enter abre el menú y el foco entra en él",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "ar: el foco queda atrapado en el menú abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "ar: Escape cierra el menú y devuelve el foco al botón",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "ar: selector de idioma móvil abre con Enter y cierra con Escape",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "teclado",
+      "name": "ar: el primer Tab llega a «Saltar al contenido»",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "faq",
+      "name": "El enlace #hacienda abre esa pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "faq",
+      "name": "Solo una pregunta abierta a la vez",
+      "ok": true,
+      "detail": "abiertas=1"
+    },
+    {
+      "area": "faq",
+      "name": "Espacio abre una pregunta con teclado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "es: «Solicitar este modelo» preselecciona el modelo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "es: resumen de errores arriba",
+      "ok": true,
+      "detail": "errores=9"
+    },
+    {
+      "area": "formulario",
+      "name": "es: foco en el primer campo con error",
+      "ok": true,
+      "detail": "name"
+    },
+    {
+      "area": "formulario",
+      "name": "es: aria-invalid y mensaje bajo el campo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "es: correo y teléfono en LTR",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "es: autocomplete name/email/tel",
+      "ok": true,
+      "detail": "name,email,tel"
+    },
+    {
+      "area": "formulario",
+      "name": "es: sin proveedor no muestra un éxito falso y da el correo",
+      "ok": true,
+      "detail": "El envío en línea todavía no está activo. Mientras tanto, es"
+    },
+    {
+      "area": "formulario",
+      "name": "ar: «Solicitar este modelo» preselecciona el modelo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "ar: resumen de errores arriba",
+      "ok": true,
+      "detail": "errores=9"
+    },
+    {
+      "area": "formulario",
+      "name": "ar: foco en el primer campo con error",
+      "ok": true,
+      "detail": "name"
+    },
+    {
+      "area": "formulario",
+      "name": "ar: aria-invalid y mensaje bajo el campo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "ar: correo y teléfono en LTR",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "formulario",
+      "name": "ar: autocomplete name/email/tel",
+      "ok": true,
+      "detail": "name,email,tel"
+    },
+    {
+      "area": "formulario",
+      "name": "ar: sin proveedor no muestra un éxito falso y da el correo",
+      "ok": true,
+      "detail": "الإرسال عبر الإنترنت غير مفعّل بعد. وإلى حين تفعيله، يُرجى م"
+    },
+    {
+      "area": "idioma",
+      "name": "Navegador en ar-AE → /ar/",
+      "ok": true,
+      "detail": "http://localhost:4190/ar/"
+    },
+    {
+      "area": "idioma",
+      "name": "Navegador en es-ES → /es/",
+      "ok": true,
+      "detail": "http://localhost:4190/es/"
+    },
+    {
+      "area": "idioma",
+      "name": "Navegador en fr-FR → /en/",
+      "ok": true,
+      "detail": "http://localhost:4190/en/"
+    },
+    {
+      "area": "idioma",
+      "name": "Se respeta la elección previa del usuario sobre el idioma del navegador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "404",
+      "name": "Responde 404 con bloques en ES, EN y AR",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
