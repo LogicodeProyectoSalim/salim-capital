@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  calidad:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Lint y formato
+        run: npm run lint
+      - name: Textos completos en ES, EN y AR
+        run: npm run check:i18n
+      - name: Generar el sitio
+        run: npm run build
+      - name: Validar HTML
+        run: npm run validate
+      - name: Enlaces rotos
+        run: npm run links
+      - name: Pruebas en navegador (responsive, accesibilidad, formulario)
+        run: |
+          npm i --no-save playwright
+          npx playwright install --with-deps chromium
+          npm run test:ui
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: informe-ui
+          path: reports/ui-report.*
