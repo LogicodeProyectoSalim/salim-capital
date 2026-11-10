@@ -53,7 +53,7 @@ src/
   data/site.json configuración del sitio
   css/site.css   estilos (tokens de tema al principio, luego componentes)
   js/site.js     tema, menú, idioma, FAQ y formulario (mejora progresiva)
-  partials/      mapa SVG generado
+  partials/      mapa SVG y monogramas del logo generados
   og/            imágenes para compartir en redes
   static/        favicon, _headers, .nojekyll
 scripts/
@@ -61,6 +61,7 @@ scripts/
   serve.mjs      servidor local
   make-map.mjs   regenera el mapa (npm run map)
   make-og.mjs    regenera las imágenes para redes
+  make-logo.py   regenera el monograma del logo (src/partials/marks.json)
   check-i18n.mjs coherencia de idiomas
   check-links.mjs enlaces rotos
 tests/ui.mjs     pruebas en navegador (Playwright + axe-core)

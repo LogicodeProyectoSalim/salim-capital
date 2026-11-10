@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0] — 2026-11-10 · Logotipo nuevo
+
+- Sello nuevo: disco con aro fino dorado, iniciales y una línea dorada que une dos puntos («el puente entre dos mundos»). Diseño aprobado en el lienzo «Logo profesional».
+- Español e inglés: monograma **SC** y nombre «SALIM CAPITAL» en versalitas espaciadas. Árabe: monograma **سك** y «سالم كابيتال»; solo en las páginas en árabe.
+- Favicon por idioma: `favicon.svg` (SC) y `favicon-ar.svg` (سك).
+- Las iniciales son trazados (no texto), así que el logo se ve igual aunque no carguen las fuentes. Se regeneran con `python3 scripts/make-logo.py`.
+- Por debajo de 376 px el sello y el nombre se reducen para que no haya scroll horizontal a 320 px. Pruebas en navegador: 1.051 / 1.051 correctas.
+
 ## [2.0.0] — 2026-11-08 · Iteración 2 (respuesta a la revisión `01_feedback_web_A.md`)
 
 La web se ha rehecho como **sitio estático multipágina trilingüe** (ES, EN, AR) a partir de los textos literales de las specs. Cada punto de la revisión tiene su estado abajo.
