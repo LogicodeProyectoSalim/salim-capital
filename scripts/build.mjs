@@ -91,7 +91,11 @@ const FLAGS = {
   ar: '<svg class="flag" viewBox="0 0 12 6" aria-hidden="true" focusable="false"><rect width="12" height="6" fill="#00732F"/><rect y="2" width="12" height="2" fill="#fff"/><rect y="4" width="12" height="2" fill="#000"/><rect width="3" height="6" fill="#FF0000"/></svg>',
 };
 
-const MARK = `<svg class="mark" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><circle class="mark-ring" cx="100" cy="100" r="92"/><path class="mark-arch" d="M58 84Q100 22 142 84"/><circle class="mark-node" cx="58" cy="84" r="7"/><circle class="mark-node" cx="142" cy="84" r="7"/><text class="mark-text" x="100" y="152" text-anchor="middle">SC</text></svg>`;
+const MARKS = JSON.parse(readFileSync(join(SRC, "partials/marks.json"), "utf8"));
+// Sello: disco, aro fino, iniciales (SC; سك en árabe) y la línea dorada del «puente».
+const markSvg = (lang) =>
+  `<svg class="mark" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle class="mark-disc" cx="60" cy="60" r="56"/><circle class="mark-ring" cx="60" cy="60" r="49"/><path class="mark-text" d="${lang === "ar" ? MARKS.ar : MARKS.sc}"/><path class="mark-bridge" d="M30 84H90"/><circle class="mark-node" cx="30" cy="84" r="2.6"/><circle class="mark-node" cx="90" cy="84" r="2.6"/></svg>`;
+const MARK = markSvg("es");
 
 // El mapa es geográfico: España siempre a la izquierda y el Golfo a la derecha, también en árabe (W-73).
 function mapWithLabels(lang) {
@@ -149,7 +153,7 @@ ${alt}
 <meta property="og:locale" content="${{ es: "es_ES", en: "en_GB", ar: "ar_AE" }[lang]}">
 <meta property="og:image" content="${esc(abs(`/assets/og/og-${lang}.png`))}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="${rel(path, "/favicon.svg")}" type="image/svg+xml">
+<link rel="icon" href="${rel(path, lang === "ar" ? "/favicon-ar.svg" : "/favicon.svg")}" type="image/svg+xml">
 <link rel="preload" href="${assets}fonts/${lang === "ar" ? "ibm-plex-sans-arabic-arabic-400-normal.woff2" : "instrument-sans-latin-400-normal.woff2"}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${assets}css/site.css?v=${ASSET_V}">
 <script src="${assets}js/site.js?v=${ASSET_V}" defer></script>
@@ -186,7 +190,7 @@ function header(lang, key, path) {
   return `<a class="skip" href="#main">${esc(t.ui.skip)}</a>
 <header class="site-header" data-header>
   <div class="wrap bar">
-    <a class="brand" href="${rel(path, pagePath(lang, "home"))}" aria-label="${esc(t.ui.homeLink)}">${MARK}<span class="brand-name">${esc(t.meta.siteName)}</span></a>
+    <a class="brand" href="${rel(path, pagePath(lang, "home"))}" aria-label="${esc(t.ui.homeLink)}">${markSvg(lang)}<span class="brand-name">${esc(t.meta.siteName)}</span></a>
     <div class="bar-actions">
       ${langSwitch(lang, key, path, "header")}
       <a class="btn btn--on-brand bar-cta" href="${rel(path, pagePath(lang, "contact"))}">${esc(t.ui.cta)}</a>
@@ -214,7 +218,7 @@ function footer(lang, key, path) {
   return `<footer class="site-footer">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <p class="foot-name">${MARK}<span>${esc(t.meta.siteName)}</span></p>
+      <p class="foot-name">${markSvg(lang)}<span>${esc(t.meta.siteName)}</span></p>
       <p class="foot-tagline">${esc(t.meta.tagline)}</p>
       <p><a class="foot-mail" href="mailto:${site.email.contact}" dir="ltr">${icon("mail")}<span>${site.email.contact}</span></a></p>
     </div>
@@ -703,7 +707,7 @@ function notFoundPage() {
     description: T.es.pages.notFound.text,
     path: "/404.html",
   })
-    .replace(/href="(?!https?:|mailto:|#)([^"]*?)(assets\/|favicon\.svg)/g, `href="${base}$2`)
+    .replace(/href="(?!https?:|mailto:|#)([^"]*?)(assets\/|favicon(?:-ar)?\.svg)/g, `href="${base}$2`)
     .replace(/src="(?!https?:)([^"]*?)assets\//g, `src="${base}assets/`);
   return `${fixedHead.replace(/<link rel="canonical"[^>]*>\n/, '<meta name="robots" content="noindex">\n')}
 <body class="page-404">
