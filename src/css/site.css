@@ -373,35 +373,33 @@ ol {
 /* ---------- Marca ---------- */
 .mark {
   flex: none;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
 }
 
-.mark-ring {
-  fill: none;
-  stroke: currentcolor;
-  stroke-width: 7;
+/* Sobre la cabecera y el pie (fondo verde): sello claro con iniciales verdes. */
+.mark-disc {
+  fill: var(--c-brand-ink);
 }
 
-.mark-arch {
+.mark-ring,
+.mark-bridge {
   fill: none;
-  stroke: var(--c-accent-on-brand);
-  stroke-width: 7;
+  stroke: var(--c-accent);
+  stroke-width: 2;
   stroke-linecap: round;
 }
 
+.mark-bridge {
+  stroke-width: 3;
+}
+
 .mark-node {
-  fill: var(--c-brand);
-  stroke: var(--c-accent-on-brand);
-  stroke-width: 4;
+  fill: var(--c-accent);
 }
 
 .mark-text {
-  fill: currentcolor;
-  font-family: Fraunces, Georgia, serif;
-  font-size: 68px;
-  font-weight: 600;
-  letter-spacing: -2px;
+  fill: var(--c-brand);
 }
 
 /* ---------- Cabecera (W-55, W-58, W-59) ---------- */
@@ -436,15 +434,35 @@ ol {
 
 .brand-name {
   font-family: Fraunces, Georgia, serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
   line-height: 1;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
 :lang(ar) .brand-name {
   font-family: var(--f-display);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  letter-spacing: 0;
+}
+
+@media (width < 23.5rem) {
+  .brand {
+    gap: 0.45rem;
+  }
+
+  .brand .mark {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand-name {
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+  }
 }
 
 .bar-actions {
@@ -1743,12 +1761,17 @@ ol {
   gap: 0.6rem;
   margin-bottom: 0.25rem;
   font-family: Fraunces, Georgia, serif;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 :lang(ar) .foot-name {
   font-family: var(--f-display);
+  font-size: 1.25rem;
   font-weight: 600;
+  letter-spacing: 0;
 }
 
 .foot-tagline {
@@ -1965,12 +1988,22 @@ ol {
   font-size: 1.75rem;
 }
 
-.root-brand .mark-node {
-  fill: var(--c-bg);
+/* Sobre fondo blanco u oscuro: sello verde con iniciales claras. */
+.root-brand .mark-disc {
+  fill: #1f3a2e;
 }
 
-.root-brand .mark-arch {
-  stroke: var(--c-accent);
+.root-brand .mark-text {
+  fill: #f5f2ea;
+}
+
+.root-brand .mark-ring,
+.root-brand .mark-bridge {
+  stroke: #c9a55e;
+}
+
+.root-brand .mark-node {
+  fill: #c9a55e;
 }
 
 .root-langs {
