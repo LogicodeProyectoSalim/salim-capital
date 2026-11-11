@@ -409,6 +409,61 @@ await withPage({}, async (page) => {
   record("404", "Responde 404 con bloques en ES, EN y AR", res.status() === 404 && langs.join() === "es,en,ar");
 });
 
+/* 12. Asistente de preguntas sin IA: responde con los textos de la web, en los tres idiomas */
+const FIRST_FAQ = (lang) => T[lang].pages.faq.blocks[0].qs[0];
+for (const lang of ["es", "en", "ar"]) {
+  for (const [w, scheme] of [
+    [1280, "light"],
+    [375, "dark"],
+    [320, "light"],
+  ]) {
+    await withPage({ viewport: { width: w, height: 760 }, colorScheme: scheme }, async (page, errors) => {
+      await page.goto(BASE + url(lang, "services"));
+      const btn = page.locator(".assistant-open");
+      record("asistente", `${lang} ${w}px: botón visible`, await btn.isVisible());
+      await btn.click();
+      const focused = await page.evaluate(() => document.activeElement?.id);
+      record("asistente", `${lang} ${w}px: al abrir, el foco va a la pregunta`, focused === "assistant-input");
+      const q = FIRST_FAQ(lang);
+      await page.fill("#assistant-input", q.q);
+      await page.press("#assistant-input", "Enter");
+      const last = page.locator(".assistant-msg--bot").last();
+      await last.locator("a").first().waitFor({ timeout: 3000 });
+      const href = await last.locator("a").first().getAttribute("href");
+      record("asistente", `${lang} ${w}px: responde con la FAQ y enlaza a ella`, href.endsWith(`#${q.id}`), href);
+      await page.fill("#assistant-input", "zzqx wvvk");
+      await page.press("#assistant-input", "Enter");
+      await page.waitForTimeout(100);
+      const fb = await page.locator(".assistant-msg--bot").last().innerText();
+      record(
+        "asistente",
+        `${lang} ${w}px: sin respuesta, remite a la solicitud`,
+        fb.includes(T[lang].assistant.fallbackLink),
+      );
+      const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+      record(
+        "asistente",
+        `${lang} ${w}px: sin scroll horizontal con el panel abierto`,
+        overflow <= 0,
+        `overflow=${overflow}`,
+      );
+      const r = await new AxeBuilder({ page })
+        .include(".assistant")
+        .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa", "best-practice"])
+        .analyze();
+      const v = r.violations.map((x) => `${x.id} (${x.nodes.length}): ${x.nodes[0]?.target}`);
+      record("asistente", `${lang} ${w}px ${scheme}: axe con el panel abierto`, v.length === 0, v.join(" | "));
+      await page.keyboard.press("Escape");
+      const closed = await page.evaluate(() => ({
+        hidden: document.querySelector(".assistant-panel").hidden,
+        focus: document.activeElement?.classList.contains("assistant-open"),
+      }));
+      record("asistente", `${lang} ${w}px: Escape cierra y devuelve el foco`, closed.hidden && closed.focus);
+      record("asistente", `${lang} ${w}px: sin errores de JavaScript`, errors.length === 0, errors.join(" | "));
+    });
+  }
+}
+
 await browser.close();
 server.close();
 
