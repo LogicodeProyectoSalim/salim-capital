@@ -4,7 +4,7 @@
 
 | Prueba | Herramienta | Resultado |
 |---|---|---|
-| Pruebas en navegador (`npm run test:ui`) | Playwright + Chromium | **1.051 / 1.051 correctas** ([informe](../reports/ui-report.md)) |
+| Pruebas en navegador (`npm run test:ui`) | Playwright + Chromium | **1.123 / 1.123 correctas** ([informe](../reports/ui-report.md)) |
 | Accesibilidad automática WCAG 2.2 AA | axe-core 4.11, 13 páginas × 3 idiomas × 2 temas × 2 anchos | **0 incidencias** |
 | HTML válido | html-validate | 41 páginas sin errores |
 | Enlaces y anclas internas | `npm run links` | Sin enlaces rotos |

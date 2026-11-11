@@ -64,6 +64,7 @@ Ordenadas por prioridad. Las marcadas con ⚠ tienen riesgo legal o de veracidad
 | N-12 | Portada › mapa | Pie «De Oriente Medio a la Unión Europea» y etiquetas «España», «Golfo» | W-72. |
 | N-13 | Títulos y descripciones de cada página | Derivados del texto del cliente (ver `pages.*.title` y `description`) | W-89. |
 | N-14 | Cabecera en árabe | Nombre de la marca en árabe: «سالم كابيتال» | W-93. Transliteración; el cliente debe confirmar cómo quiere escribir su marca en árabe. |
+| N-15 | Asistente de preguntas (todas las páginas) | Botón «¿Preguntas?», presentación, aviso «Asistente automático. No es asesoramiento financiero, legal ni fiscal personalizado. No guardamos lo que escribe.» y respuestas breves propias: saludo, agradecimiento, tarifas («La web no publica tarifas: dependen del modelo de colaboración y de cada caso…»), mínimo («…a partir de 500.000 $», deducido del formulario), cómo contactar, residencia («coordinamos con abogados especializados», en línea con P-01), idiomas y las frases que introducen la lista de servicios y de modelos. El resto de respuestas son textos literales del cliente (FAQ, servicios, modelos, aliados…). | Petición del 12/11/2026. **El cliente debe validar estas respuestas**, sobre todo tarifas, mínimo e idiomas. Se editan en `assistant.intents` de cada idioma. |
 
 ## 4. Notas legales para el abogado (no son cambios de texto)
 
