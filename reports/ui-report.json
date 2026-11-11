@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-08T01:18:56.005Z",
+  "date": "2026-11-11T23:30:41.207Z",
   "results": [
     {
       "area": "responsive",
@@ -3593,7 +3593,7 @@
       "area": "cta",
       "name": "ar iPhone SE (1.ª gen.) 320×568: CTA visible sin scroll",
       "ok": true,
-      "detail": "borde inferior=512px"
+      "detail": "borde inferior=467px"
     },
     {
       "area": "cta",
@@ -6304,6 +6304,438 @@
     {
       "area": "404",
       "name": "Responde 404 con bloques en ES, EN y AR",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../es/faq/#claves"
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px light: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 1280px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../es/faq/#claves"
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px dark: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 375px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../es/faq/#claves"
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px light: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "es 320px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../en/faq/#keys"
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px light: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 1280px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../en/faq/#keys"
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px dark: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 375px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../en/faq/#keys"
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px light: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "en 320px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../ar/faq/#keys"
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px light: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 1280px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../ar/faq/#keys"
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px dark: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 375px: sin errores de JavaScript",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: botón visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: al abrir, el foco va a la pregunta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: responde con la FAQ y enlaza a ella",
+      "ok": true,
+      "detail": "../../ar/faq/#keys"
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: sin respuesta, remite a la solicitud",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: sin scroll horizontal con el panel abierto",
+      "ok": true,
+      "detail": "overflow=0"
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px light: axe con el panel abierto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: Escape cierra y devuelve el foco",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "area": "asistente",
+      "name": "ar 320px: sin errores de JavaScript",
       "ok": true,
       "detail": ""
     }

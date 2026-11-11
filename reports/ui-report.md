@@ -1,6 +1,6 @@
 # Informe de pruebas en navegador
 
-Fecha: 2026-11-08 · Motor: Chromium (Playwright) · 1051 comprobaciones
+Fecha: 2026-11-11 · Motor: Chromium (Playwright) · 1123 comprobaciones
 
 | Área | Correctas | Fallidas |
 |---|---|---|
@@ -17,5 +17,6 @@ Fecha: 2026-11-08 · Motor: Chromium (Playwright) · 1051 comprobaciones
 | faq | 3 | 0 |
 | formulario | 14 | 0 |
 | idioma | 4 | 0 |
+| asistente | 72 | 0 |
 
 Sin fallos.
