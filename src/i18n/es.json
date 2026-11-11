@@ -654,5 +654,115 @@
       "processor": "Proveedor del formulario",
       "transfers": "Garantías aplicadas"
     }
+  },
+  "assistant": {
+    "open": "¿Preguntas?",
+    "openLabel": "Abrir el asistente de preguntas",
+    "title": "Asistente de Salim Capital",
+    "close": "Cerrar el asistente",
+    "intro": "Hola. Respondo con la información de esta web: servicios, modelos de colaboración, seguridad de sus activos, fiscalidad y cómo empezar.",
+    "disclaimer": "Asistente automático. No es asesoramiento financiero, legal ni fiscal personalizado. No guardamos lo que escribe.",
+    "inputLabel": "Su pregunta",
+    "placeholder": "Escriba su pregunta…",
+    "send": "Enviar",
+    "suggestionsLabel": "Preguntas sugeridas",
+    "suggestions": [
+      "¿Qué servicios ofrece?",
+      "¿Tengo que entregar mis claves privadas?",
+      "¿Es legal traer mis criptomonedas a España?",
+      "¿Cómo empiezo?"
+    ],
+    "readMore": "Leer más",
+    "related": "También puede interesarle:",
+    "fallback": "No he encontrado la respuesta en la información de la web. Escriba su consulta en la solicitud y Said Salim la revisará personalmente.",
+    "fallbackLink": "Ir a la solicitud",
+    "you": "Usted",
+    "bot": "Asistente",
+    "loadError": "No se ha podido cargar el asistente. Consulte las preguntas frecuentes.",
+    "modelsIntro": "Hay tres modelos de colaboración:",
+    "intents": [
+      {
+        "id": "greeting",
+        "keywords": "hola buenas buenos dias tardes noches saludos hey",
+        "answer": "Hola. ¿En qué puedo ayudarle? Puede preguntarme por los servicios, los modelos de colaboración, la seguridad de sus activos o cómo empezar."
+      },
+      {
+        "id": "services",
+        "keywords": "servicios servicio ofrece ofrecen ofreces hacen dedica dedican ayudan",
+        "ref": "services",
+        "link": "services"
+      },
+      {
+        "id": "thanks",
+        "keywords": "gracias muchas perfecto genial estupendo",
+        "answer": "De nada. Si quiere que Said Salim estudie su caso, puede completar la solicitud.",
+        "link": "contact"
+      },
+      {
+        "id": "price",
+        "keywords": "precio precios cuanto cuesta coste costo tarifa tarifas honorarios comision comisiones pagar presupuesto",
+        "answer": "La web no publica tarifas: dependen del modelo de colaboración y de cada caso. Tras analizar su solicitud, recibirá una propuesta.",
+        "link": "models"
+      },
+      {
+        "id": "minimum",
+        "keywords": "minimo minima cantidad volumen necesito requisito requisitos patrimonio",
+        "answer": "La solicitud está pensada para patrimonios en activos digitales a partir de 500.000 $.",
+        "link": "contact"
+      },
+      {
+        "id": "start",
+        "keywords": "empezar empiezo comenzar contratar proceso pasos solicitud solicitar cita reunion sesion",
+        "ref": "contactNext",
+        "link": "contact"
+      },
+      {
+        "id": "talk",
+        "keywords": "hablar persona humano llamar telefono whatsapp signal telegram email correo escribir contactar contacto",
+        "answer": "Puede escribir a {email} o indicar en la solicitud su canal preferido: WhatsApp Business, Signal, Telegram o email.",
+        "link": "contact"
+      },
+      {
+        "id": "residence",
+        "keywords": "golden visa visado residencia residir vivir mudarme permiso nie",
+        "answer": "Para cuestiones de residencia en España coordinamos con abogados especializados. Indíquelo en su solicitud y se estudiará su caso.",
+        "link": "contact"
+      },
+      {
+        "id": "languages",
+        "keywords": "idioma idiomas lengua hablan ingles arabe espanol",
+        "answer": "Puede escribirnos en español, inglés o árabe.",
+        "link": "contact"
+      },
+      {
+        "id": "models",
+        "keywords": "modelos modelo planes paquetes opciones niveles diferencia elegir",
+        "ref": "models",
+        "link": "models"
+      },
+      {
+        "id": "careers",
+        "keywords": "trabajo empleo trabajar vacante vacantes oferta ofertas candidatura curriculum",
+        "ref": "careers",
+        "link": "careers"
+      },
+      {
+        "id": "who",
+        "keywords": "quien eres said salim fundador",
+        "ref": "who",
+        "link": "about"
+      }
+    ],
+    "servicesIntro": "Los servicios se agrupan en tres áreas:",
+    "synonyms": [
+      "finalizar finalizo cancelar terminar acabar baja salir rescindir dejar",
+      "inmobiliarios inmuebles casa casas piso pisos vivienda propiedad propiedades apartamento villa",
+      "criptomonedas digitales bitcoin btc ethereum cripto criptos token tokens",
+      "fiscal tributaria impuestos impuesto fiscalidad tasas",
+      "ciberneticos hackeos hackers hacker hackeo robo robar",
+      "confidencialidad discrecion privacidad secreto anonimato",
+      "custodia wallets guardar almacenar monedero",
+      "trasladar movilidad mover transferir enviar traer llevar"
+    ]
   }
 }

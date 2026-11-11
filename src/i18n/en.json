@@ -643,5 +643,115 @@
       "processor": "Form provider",
       "transfers": "Safeguards applied"
     }
+  },
+  "assistant": {
+    "open": "Questions?",
+    "openLabel": "Open the questions assistant",
+    "title": "Salim Capital assistant",
+    "close": "Close the assistant",
+    "intro": "Hello. I answer with the information on this website: services, engagement models, the security of your assets, tax and how to get started.",
+    "disclaimer": "Automated assistant. This is not personalised financial, legal or tax advice. We do not store what you type.",
+    "inputLabel": "Your question",
+    "placeholder": "Type your question…",
+    "send": "Send",
+    "suggestionsLabel": "Suggested questions",
+    "suggestions": [
+      "What services do you offer?",
+      "Do I have to hand over my private keys?",
+      "Is it legal to bring my crypto to Spain?",
+      "How do I get started?"
+    ],
+    "readMore": "Read more",
+    "related": "You may also be interested in:",
+    "fallback": "I could not find the answer in the information on this website. Write your question in the request form and Said Salim will review it personally.",
+    "fallbackLink": "Go to the request form",
+    "you": "You",
+    "bot": "Assistant",
+    "loadError": "The assistant could not be loaded. Please see the frequently asked questions.",
+    "modelsIntro": "There are three engagement models:",
+    "intents": [
+      {
+        "id": "greeting",
+        "keywords": "hello hi hey good morning afternoon evening greetings",
+        "answer": "Hello. How can I help you? You can ask me about the services, the engagement models, the security of your assets or how to get started."
+      },
+      {
+        "id": "services",
+        "keywords": "services service offer offers provide do help",
+        "ref": "services",
+        "link": "services"
+      },
+      {
+        "id": "thanks",
+        "keywords": "thanks thank great perfect",
+        "answer": "You are welcome. If you would like Said Salim to study your case, you can complete the request form.",
+        "link": "contact"
+      },
+      {
+        "id": "price",
+        "keywords": "price prices cost costs fee fees much charge commission pay quote pricing",
+        "answer": "Fees are not published on the website: they depend on the engagement model and on each case. After your request has been reviewed, you will receive a proposal.",
+        "link": "models"
+      },
+      {
+        "id": "minimum",
+        "keywords": "minimum amount volume need requirement requirements wealth",
+        "answer": "The request form is intended for digital-asset holdings of $500,000 or more.",
+        "link": "contact"
+      },
+      {
+        "id": "start",
+        "keywords": "start started begin hire process steps request apply appointment meeting session",
+        "ref": "contactNext",
+        "link": "contact"
+      },
+      {
+        "id": "talk",
+        "keywords": "talk speak person human call phone whatsapp signal telegram email mail write contact",
+        "answer": "You can write to {email} or state your preferred channel in the request form: WhatsApp Business, Signal, Telegram or email.",
+        "link": "contact"
+      },
+      {
+        "id": "residence",
+        "keywords": "golden visa residence residency live move permit relocate",
+        "answer": "For residence matters in Spain we coordinate with specialised lawyers. Mention it in your request and your case will be studied.",
+        "link": "contact"
+      },
+      {
+        "id": "languages",
+        "keywords": "language languages speak english arabic spanish",
+        "answer": "You can write to us in Spanish, English or Arabic.",
+        "link": "contact"
+      },
+      {
+        "id": "models",
+        "keywords": "models model plans packages options levels difference choose",
+        "ref": "models",
+        "link": "models"
+      },
+      {
+        "id": "careers",
+        "keywords": "job jobs work career careers vacancy vacancies opening application cv resume",
+        "ref": "careers",
+        "link": "careers"
+      },
+      {
+        "id": "who",
+        "keywords": "who are you said salim founder",
+        "ref": "who",
+        "link": "about"
+      }
+    ],
+    "servicesIntro": "The services are grouped into three areas:",
+    "synonyms": [
+      "end terminate terminating cancel quit stop leave exit",
+      "real estate property properties house home apartment flat villa",
+      "cryptocurrency digital bitcoin btc ethereum crypto token tokens coins",
+      "tax taxation taxes fiscal",
+      "cyberattacks hacks hackers hacker hacked theft stolen",
+      "confidentiality discretion privacy secret anonymous anonymity",
+      "custody wallets wallet store storage",
+      "move relocation relocate transfer bring send"
+    ]
   }
 }
