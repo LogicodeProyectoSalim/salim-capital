@@ -21,9 +21,12 @@ const MAP_POINTS = JSON.parse(readFileSync(join(SRC, "partials/map-points.json")
 const YEAR = new Date(site.legal.updated).getFullYear();
 const warnings = new Set();
 // Versión de los recursos para invalidar la caché al publicar cambios.
+const LANGS_FOR_HASH = ["es", "en", "ar"];
 const ASSET_V = createHash("sha256")
   .update(readFileSync(join(SRC, "css/site.css")))
   .update(readFileSync(join(SRC, "js/site.js")))
+  .update(readFileSync(join(SRC, "js/assistant.js")))
+  .update(LANGS_FOR_HASH.map((l) => readFileSync(join(SRC, `i18n/${l}.json`))).join(""))
   .digest("hex")
   .slice(0, 10);
 
@@ -81,6 +84,7 @@ const ICONS = {
   mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/>',
   lock: '<rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/>',
   alert: '<circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.5v.01"/>',
+  chat: '<path d="M4.5 5.5h15v10h-8l-4.5 3.5v-3.5h-2.5Z"/><path d="M8.5 9.5h7M8.5 12.5h4.5"/>',
 };
 const icon = (name, cls = "icon") =>
   `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${ICONS[name]}</svg>`;
@@ -157,6 +161,7 @@ ${alt}
 <link rel="preload" href="${assets}fonts/${lang === "ar" ? "ibm-plex-sans-arabic-arabic-400-normal.woff2" : "instrument-sans-latin-400-normal.woff2"}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${assets}css/site.css?v=${ASSET_V}">
 <script src="${assets}js/site.js?v=${ASSET_V}" defer></script>
+<script src="${assets}js/assistant.js?v=${ASSET_V}" defer></script>
 </head>`;
 }
 
@@ -257,6 +262,90 @@ function jsStrings(lang) {
   return `<script type="application/json" id="i18n-js">${JSON.stringify(data).replace(/</g, "\\u003c")}</script>`;
 }
 
+/* ---------- Asistente de preguntas (sin IA): base de conocimiento por idioma ---------- */
+// Se genera a partir de los mismos textos del cliente que muestran las páginas, así el asistente
+// nunca dice nada distinto de la web. Las respuestas propias del asistente están en `assistant.intents`.
+const plain = (s) => String(s).replace(/\*\*?/g, "");
+const site_path = (lang, key, hash = "") => pagePath(lang, key).replace(/^\//, "") + (hash ? `#${hash}` : "");
+function assistantKB(lang) {
+  const t = T[lang];
+  const p = t.pages;
+  const a = t.assistant;
+  const docs = [];
+  const add = (title, text, url, weight = 1) =>
+    docs.push({ t: plain(title).replace(/:$/, ""), a: text, u: url, w: weight });
+  add(p.home.h1, `${p.home.intro1} ${p.home.intro2}`, site_path(lang, "home"));
+  p.home.give.forEach((g) => add(g.t, g.p, site_path(lang, "home")));
+  add(p.home.giveTitle, p.home.mission, site_path(lang, "home"), 0.6);
+  p.about.blocks.forEach((b) => b.forEach((para) => add(p.about.h1, para, site_path(lang, "about"), 0.7)));
+  p.philosophy.intro.forEach((x) => add(p.philosophy.h1, x, site_path(lang, "philosophy"), 0.7));
+  p.philosophy.principles.forEach((x) => add(x.t, x.p, site_path(lang, "philosophy")));
+  p.experience.profiles.forEach((x) => add(x.t, x.p, site_path(lang, "experience")));
+  p.services.groups.forEach((g) => g.items.forEach((x) => add(x.t, x.p, site_path(lang, "services"))));
+  p.models.list.forEach((m) => {
+    const L = p.models.labels;
+    const inc = m.includes.map((i) => plain(`${i.t} ${i.p}`).trim()).join(" · ");
+    add(
+      `${m.letter} ${m.t}`,
+      `**${L.focus}** ${m.focus} **${L.ideal}** ${m.ideal} **${L.includes}** ${inc} **${L.result}** ${m.result}`,
+      site_path(lang, "models", m.id),
+    );
+  });
+  p.partners.groups.forEach((g) => g.items.forEach((x) => add(x.t, x.p, site_path(lang, "partners"))));
+  p.faq.blocks.forEach((b) => b.qs.forEach((q) => add(q.q, q.a, site_path(lang, "faq", q.id), 1.4)));
+  add(p.careers.h1, fill(p.careers.text, { email: site.email.careers }), site_path(lang, "careers"));
+  add(p.contact.lead, p.contact.intro, site_path(lang, "contact"), 0.8);
+  const refs = {
+    contactNext: p.contact.asideNext.join(" "),
+    careers: fill(p.careers.text, { email: site.email.careers }),
+    who: p.home.intro1,
+    services: `${a.servicesIntro} ${p.services.groups.map((g) => `**${plain(g.t)}** ${g.s}: ${g.items.map((x) => plain(x.t).replace(/:$/, "")).join(" · ")}.`).join(" ")}`,
+    models: `${a.modelsIntro} ${p.models.list.map((m) => `**${m.letter} ${plain(m.t)}:** ${m.focus}`).join(" ")}`,
+  };
+  const intents = a.intents.map((i) => ({
+    id: i.id,
+    k: i.keywords,
+    a: i.ref ? refs[i.ref] : fill(i.answer, { email: site.email.contact }),
+    u: i.link ? site_path(lang, i.link) : "",
+  }));
+  return { docs, intents, synonyms: a.synonyms, contact: site_path(lang, "contact") };
+}
+
+function assistant(lang, path) {
+  const a = T[lang].assistant;
+  const strings = {
+    readMore: a.readMore,
+    related: a.related,
+    fallback: a.fallback,
+    fallbackLink: a.fallbackLink,
+    you: a.you,
+    bot: a.bot,
+    loadError: a.loadError,
+  };
+  const root = rel(path, "/").replace(/index\.html$/, "");
+  const kbUrl = rel(path, `/assets/kb/kb-${lang}.json`) + `?v=${ASSET_V}`;
+  return `<div class="assistant" data-assistant data-root="${esc(root)}" data-kb="${esc(kbUrl)}"${PREVIEW ? " data-preview" : ""} hidden>
+  <button type="button" class="assistant-open" aria-expanded="false" aria-controls="assistant-panel" aria-label="${esc(a.openLabel)}">${icon("chat")}<span>${esc(a.open)}</span></button>
+  <section class="assistant-panel" id="assistant-panel" role="dialog" aria-modal="false" aria-labelledby="assistant-title" hidden>
+    <div class="assistant-head">
+      <h2 id="assistant-title">${esc(a.title)}</h2>
+      <button type="button" class="assistant-close" aria-label="${esc(a.close)}">${icon("close")}</button>
+    </div>
+    <div class="assistant-log" role="log" aria-live="polite" aria-relevant="additions" tabindex="0" aria-label="${esc(a.title)}">
+      <div class="assistant-msg assistant-msg--bot"><p>${esc(a.intro)}</p></div>
+    </div>
+    <p class="assistant-disclaimer">${esc(a.disclaimer)}</p>
+    <div class="assistant-suggestions" role="group" aria-label="${esc(a.suggestionsLabel)}">${a.suggestions.map((q) => `<button type="button" class="assistant-chip">${esc(q)}</button>`).join("")}</div>
+    <form class="assistant-form" novalidate>
+      <label class="vh" for="assistant-input">${esc(a.inputLabel)}</label>
+      <input id="assistant-input" type="text" autocomplete="off" maxlength="300" enterkeyhint="send" placeholder="${esc(a.placeholder)}">
+      <button type="submit" class="assistant-send" aria-label="${esc(a.send)}">${icon("arrow", "icon icon--dir")}</button>
+    </form>
+  </section>
+  <script type="application/json" class="assistant-strings">${JSON.stringify(strings).replace(/</g, "\\u003c")}</script>${PREVIEW ? `\n  <script type="application/json" class="assistant-kb">${JSON.stringify(assistantKB(lang)).replace(/</g, "\\u003c")}</script>` : ""}
+</div>`;
+}
+
 function pageEnd(lang, key, path) {
   const t = T[lang];
   const i = NAV.indexOf(key);
@@ -293,6 +382,7 @@ ${main}
 ${pageEnd(lang, key, path)}
 </main>
 ${footer(lang, key, path)}
+${assistant(lang, path)}
 ${extraHead}${jsStrings(lang)}
 </body>
 </html>
@@ -758,6 +848,8 @@ write("/robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${abs("/sitemap.xml")}
 cpSync(join(SRC, "css"), join(DIST, "assets/css"), { recursive: true });
 cpSync(join(SRC, "js"), join(DIST, "assets/js"), { recursive: true });
 cpSync(join(SRC, "static"), DIST, { recursive: true });
+mkdirSync(join(DIST, "assets/kb"), { recursive: true });
+for (const lang of LANGS) writeFileSync(join(DIST, `assets/kb/kb-${lang}.json`), JSON.stringify(assistantKB(lang)));
 if (existsSync(join(SRC, "og"))) cpSync(join(SRC, "og"), join(DIST, "assets/og"), { recursive: true });
 const FONTS = [
   ["@fontsource-variable/fraunces/files", ["fraunces-latin-wght-normal.woff2", "fraunces-latin-wght-italic.woff2"]],
