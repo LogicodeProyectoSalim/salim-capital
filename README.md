@@ -45,6 +45,15 @@ Cualquier cambio sobre el texto del cliente se registra primero en [docs/DESVIAC
 
 Datos generales (dominio, correos, endpoint del formulario, datos legales): `src/data/site.json`. Un valor `null` en `legal` aparece como «Pendiente de completar» en las páginas legales y el build lo avisa.
 
+## Asistente de preguntas
+
+El botón «¿Preguntas?» abre un asistente sin IA que responde con los textos de la web. No necesita servidor ni guarda nada.
+
+- Las respuestas salen de los mismos textos de `src/i18n/*.json`: si cambias una pregunta de la FAQ, el asistente la usa en el siguiente build.
+- Las respuestas breves propias (tarifas, mínimo, idiomas…) están en `assistant.intents` de cada idioma: `keywords` son las palabras que la activan y `answer` el texto. `{email}` se sustituye por el correo de contacto.
+- `assistant.synonyms` agrupa palabras equivalentes; las dos primeras de cada grupo deben aparecer en los textos de la web.
+- Código: `src/js/assistant.js`. Pruebas: sección 12 de `tests/ui.mjs`.
+
 ## Estructura
 
 ```
@@ -53,6 +62,7 @@ src/
   data/site.json configuración del sitio
   css/site.css   estilos (tokens de tema al principio, luego componentes)
   js/site.js     tema, menú, idioma, FAQ y formulario (mejora progresiva)
+  js/assistant.js asistente de preguntas (sin IA, en el navegador)
   partials/      mapa SVG y monogramas del logo generados
   og/            imágenes para compartir en redes
   static/        favicon, _headers, .nojekyll

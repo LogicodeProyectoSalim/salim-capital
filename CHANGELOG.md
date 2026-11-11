@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.2.0] — 2026-11-12 · Asistente de preguntas (sin IA)
+
+- Botón «¿Preguntas?» en todas las páginas de los tres idiomas. Abre un panel que responde al momento con los textos de la propia web: FAQ, servicios, modelos, aliados, filosofía, experiencia y contacto, con un enlace «Leer más» a la sección exacta.
+- Respuestas breves para lo que la web no cubre en un solo texto (tarifas, mínimo, cómo empezar, contacto, residencia, idiomas, lista de servicios y de modelos). Son texto nuevo: N-15 en [docs/DESVIACIONES.md](docs/DESVIACIONES.md), pendiente de aprobación del cliente.
+- Si no encuentra la respuesta, lo dice y remite a la solicitud: nunca inventa.
+- Todo funciona en el navegador, sin IA, sin coste y sin enviar ni guardar lo que se escribe. Busca por palabras con sinónimos (p. ej. «casa» → inmobiliario, «cancelar» → finalizar) y normaliza acentos y escritura árabe.
+- La base de conocimiento (`assets/kb/kb-{es,en,ar}.json`) se genera en cada build a partir de `src/i18n`, así que el asistente siempre dice lo mismo que la web.
+- Accesible: diálogo con nombre, registro con `aria-live`, foco al abrir, Escape para cerrar, zonas táctiles de 44 px y sin scroll horizontal a 320 px. Pruebas en navegador: 1.123 / 1.123 correctas (72 nuevas del asistente).
+
 ## [2.1.0] — 2026-11-10 · Logotipo nuevo
 
 - Sello nuevo: disco con aro fino dorado, iniciales y una línea dorada que une dos puntos («el puente entre dos mundos»). Diseño aprobado en el lienzo «Logo profesional».
